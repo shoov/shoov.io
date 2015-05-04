@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Shoov.io</title>
- <link href="gizra.github.io/atom.xml" rel="self"/>
- <link href="gizra.github.io/"/>
- <updated>2015-05-04T11:29:27+03:00</updated>
- <id>gizra.github.io</id>
+ <link href="shoov.github.io/shoov.io/atom.xml" rel="self"/>
+ <link href="shoov.github.io/shoov.io/"/>
+ <updated>2015-05-04T11:31:19+03:00</updated>
+ <id>shoov.github.io/shoov.io</id>
  <author>
    <name>amitaibu</name>
    <email>amitai@gizra.com</email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Welcome to Jekyll!</title>
-   <link href="gizra.github.io/jekyll/2014/03/03/welcome-to-jekyll/"/>
+   <link href="shoov.github.io/shoov.io/jekyll/2014/03/03/welcome-to-jekyll/"/>
    <updated>2014-03-03T00:00:00+02:00</updated>
-   <id>gizra.github.io/jekyll/2014/03/03/welcome-to-jekyll</id>
+   <id>shoov.github.io/shoov.io/jekyll/2014/03/03/welcome-to-jekyll</id>
    <content type="html">&lt;p&gt;You&amp;rsquo;ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build
 (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes! To add new posts, simply add
 a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention:
@@ -50,9 +50,9 @@ Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/mo
  
  <entry>
    <title>Introducing Poole</title>
-   <link href="gizra.github.io/jekyll/poole/2014/03/02/introducing-poole/"/>
+   <link href="shoov.github.io/shoov.io/jekyll/poole/2014/03/02/introducing-poole/"/>
    <updated>2014-03-02T00:00:00+02:00</updated>
-   <id>gizra.github.io/jekyll/poole/2014/03/02/introducing-poole</id>
+   <id>shoov.github.io/shoov.io/jekyll/poole/2014/03/02/introducing-poole</id>
    <content type="html">&lt;p&gt;&lt;em&gt;The Strange Case of Dr. Jeykll and Mr. Hyde&lt;/em&gt; tells the story of a lawyer
 investigating the connection of two persons, Dr. Henry Jekyll and Mr. Edward
 Hyde. Chief among the novel&amp;rsquo;s supporting cast is a man by the name of Mr. Poole,

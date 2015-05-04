@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>gizra.github.io/</loc>
-    <lastmod>2015-05-04T11:29:27+03:00</lastmod>
+    <loc>shoov.github.io/shoov.io/</loc>
+    <lastmod>2015-05-04T11:31:19+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
     <url>
-      <loc>gizra.github.io/jekyll/2014/03/03/welcome-to-jekyll/</loc>
+      <loc>shoov.github.io/shoov.io/jekyll/2014/03/03/welcome-to-jekyll/</loc>
       
         <lastmod>2014-03-03T00:00:00+02:00</lastmod>
       
@@ -21,7 +21,7 @@
     </url>
   
     <url>
-      <loc>gizra.github.io/jekyll/poole/2014/03/02/introducing-poole/</loc>
+      <loc>shoov.github.io/shoov.io/jekyll/poole/2014/03/02/introducing-poole/</loc>
       
         <lastmod>2014-03-02T00:00:00+02:00</lastmod>
       
@@ -35,22 +35,9 @@
   
   
   <url>
-    <loc>gizra.github.io/404/</loc>
+    <loc>shoov.github.io/shoov.io/404/</loc>
     
-      <lastmod>2015-05-04T11:29:27+03:00</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
-  </url>
-  
-  <url>
-    <loc>gizra.github.io/about/</loc>
-    
-      <lastmod>2015-05-04T11:29:27+03:00</lastmod>
+      <lastmod>2015-05-04T11:31:19+03:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -61,22 +48,9 @@
   </url>
   
   <url>
-    <loc>gizra.github.io/atom.xml</loc>
+    <loc>shoov.github.io/shoov.io/about/</loc>
     
-      <lastmod>2015-05-04T11:29:27+03:00</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
-  </url>
-  
-  <url>
-    <loc>gizra.github.io/</loc>
-    
-      <lastmod>2015-05-04T11:29:27+03:00</lastmod>
+      <lastmod>2015-05-04T11:31:19+03:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -87,9 +61,35 @@
   </url>
   
   <url>
-    <loc>gizra.github.io/sitemap.xml</loc>
+    <loc>shoov.github.io/shoov.io/atom.xml</loc>
     
-      <lastmod>2015-05-04T11:29:27+03:00</lastmod>
+      <lastmod>2015-05-04T11:31:19+03:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>shoov.github.io/shoov.io/</loc>
+    
+      <lastmod>2015-05-04T11:31:19+03:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>shoov.github.io/shoov.io/sitemap.xml</loc>
+    
+      <lastmod>2015-05-04T11:31:19+03:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
