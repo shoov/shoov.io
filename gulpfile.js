@@ -78,6 +78,13 @@ gulp.task("copy", function () {
     .pipe($.size({ title: "xml & txt" }))
 });
 
+gulp.task("cname", function () {
+  return gulp.src(["serve/CNAME"])
+    .pipe(gulp.dest("site"))
+    .pipe($.size({ title: "CNAMe" }))
+});
+
+
 // Optimizes all the CSS, HTML and concats the JS etc
 gulp.task("html", ["styles"], function () {
   var assets = $.useref.assets({searchPath: "serve"});
@@ -180,5 +187,5 @@ gulp.task("build", ["jekyll:prod", "styles"], function () {});
 // Builds your site with the "build" command and then runs all the optimizations on
 // it and outputs it to "./site"
 gulp.task("publish", ["build"], function () {
-  gulp.start("html", "copy", "images", "fonts");
+  gulp.start("html", "copy", "cname", "images", "fonts");
 });
