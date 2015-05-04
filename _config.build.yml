@@ -2,7 +2,7 @@
 # Overrides these options in _config.yml
 
 # Overrides the default URL, needed for your atom feed and sitemap
-url: shoov.github.io/shoov.io
+url: shoov.io
 
 # Hides your drafts and future posts
 future: false
