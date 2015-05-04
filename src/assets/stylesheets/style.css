@@ -926,3 +926,6 @@ a.pagination-item:hover {
 
 .login-message {
   text-align: center; }
+
+.small {
+  font-size: 13px; }
