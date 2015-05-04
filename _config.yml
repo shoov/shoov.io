@@ -1,8 +1,8 @@
 # Title, decription, tagline and URL for your site
 # Can be used in your theme by calling 'site.title' and so on
 title: Shoov.io
-description: 
-tagline: 
+description:
+tagline:
 url: localhost:4000
 
 # Used so Jekyll outputs the site correctly so Gulp can do what it wants
@@ -14,11 +14,11 @@ destination: serve
 author:
   name: amitaibu
   email: amitai@gizra.com
-  bio: 
+  bio:
   twitter: amitaibu
 
 # general setting for Jekyll
-googleAnalytics: UA-XXXXX-X
+googleAnalytics: UA-6558346-10
 
 # _config.build.yml overwrites these options when you run `gulp build`
 # Enables future posts (posts with dates in the future) and drafts
