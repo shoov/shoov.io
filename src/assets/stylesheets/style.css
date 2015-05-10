@@ -932,7 +932,8 @@ a.pagination-item:hover {
 
 .teaser-image {
   border: 1px solid lightgray;
-  padding: 10px; }
+  padding: 10px;
+  margin-top: 30px; }
 
 footer {
   margin-top: 30px;
