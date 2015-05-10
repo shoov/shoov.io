@@ -929,3 +929,11 @@ a.pagination-item:hover {
 
 .small {
   font-size: 13px; }
+
+.teaser-image {
+  border: 1px solid lightgray;
+  padding: 10px; }
+
+footer {
+  margin-top: 30px;
+  font-size: 14px; }
