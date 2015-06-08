@@ -61,9 +61,9 @@ git commit -am 'Shoovify complete!'
 
 echo
 echo "${YELLOW}Shoov is configured. Now you need to make push and after";
-echo "you can activate your repository on the shoov.io${END}";
+echo "you can activate your repository on the shoov.io";
 echo
-echo "Also you can run tests by next command: cd behat && bin/behat"
+echo "Also you can run tests by next command: cd behat && bin/behat${END}"
 echo
 
 exit 0
