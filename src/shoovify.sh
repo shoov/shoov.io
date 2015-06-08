@@ -13,11 +13,13 @@ YELLOW='\033[33m'
 RED='\033[31m'
 END='\033[0m'
 
+echo
 echo "${YELLOW}Start shoovly repository${END}"
+echo
 
 # Test that git repository exist.
 if [ ! -d .git ]; then
-  echo "${RED}> Script should be running in exist git repository.${END}"
+  echo "${RED}Script should be running in exist git repository.${END}"
   exit 1
 fi
 
@@ -39,16 +41,10 @@ tar zxf $TEMP_DIR/behat/behat-vendor.tar.gz -C $TEMP_DIR/behat
 # Move behat enviroment with tests to root directory.
 # First test that behat folder doesn't exist.
 if [ -d behat ]; then
-  echo -n "${RED}> Behat directory already exist. Do you want overide it?${END} "
-  read answer
-  # If behat folder exist and user answer is yes.
-  if echo "$answer" | grep -iq "^y"; then
-    # Remove an user behat folder.
-    # To restore folder execute: git reset --hard
-    rm -rf behat
-    # Run initilisation of behat folder.
-    init_behat
-  fi
+  echo
+  echo "${RED}Behat directory already exist. If you want to install behat "
+  echo "examples please remove behat folder and rerun this script.${END}"
+  echo
 else
   # Run initilisation of behat folder.
   init_behat
@@ -60,15 +56,14 @@ rm -rf $TEMP_DIR
 # show git status
 git status
 
-# Can we commit?
-echo -n "${YELLOW}> Can we commit it?${END} "
-read answer
-# If behat folder exist and user answer is yes.
-if echo "$answer" | grep -iq "^y"; then
-  git commit -am 'Shoovify complete!'
-fi
+# commit
+git commit -am 'Shoovify complete!'
 
-echo "${YELLOW}Shoov is configured. Now you can activate your repository on shoov.io.${END}";
-echo "${YELLOW}Also you can run tests by next command: cd behat && bin/behat${END}"
+echo
+echo "${YELLOW}Shoov is configured. Now you need to make push and after";
+echo "you can activate your repository on the shoov.io${END}";
+echo
+echo "Also you can run tests by next command: cd behat && bin/behat"
+echo
 
 exit 0
