@@ -14,12 +14,12 @@ RED='\033[31m'
 END='\033[0m'
 
 echo
-echo "${YELLOW}Start shoovly repository${END}"
+echo "${YELLOW}Shoovify repository${END}"
 echo
 
 # Test that git repository exist.
 if [ ! -d .git ]; then
-  echo "${RED}Script should be running in exist git repository.${END}"
+  echo "${RED}Script should be running in an existing git repository.${END}"
   exit 1
 fi
 
@@ -42,8 +42,8 @@ tar zxf $TEMP_DIR/behat/behat-vendor.tar.gz -C $TEMP_DIR/behat
 # First test that behat folder doesn't exist.
 if [ -d behat ]; then
   echo
-  echo "${RED}Behat directory already exist. If you want to install behat "
-  echo "examples please remove behat folder and rerun this script.${END}"
+  echo "${RED}Behat directory already exists. If you want to install Behat "
+  echo "examples, please remove behat folder and rerun this script.${END}"
   echo
 else
   # Run initilisation of behat folder.
@@ -60,10 +60,10 @@ git status
 git commit -am 'Shoovify complete!'
 
 echo
-echo "${YELLOW}Shoov is configured. Now you need to make push and after";
-echo "you can activate your repository on the shoov.io";
+echo "${YELLOW}Shoov is configured. Next you need to push it to your GitHub repository, ";
+echo "and activate your repository on shoov.io";
 echo
-echo "Also you can run tests by next command: cd behat && bin/behat${END}"
+echo "Also you can run tests locally by the following command: cd behat && bin/behat${END}"
 echo
 
 exit 0
