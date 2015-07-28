@@ -31,3 +31,13 @@ npm install -g mocha yo generator-shoov
 curl -sS https://getcomposer.org/installer | php
 sudo mv composer.phar /usr/local/bin/composer
 ```
+
+# One time Setup
+
+1. Login to Shoov
+1. Register to BrowserStack or Sauce Labs
+1. Add credentials under my-account
+
+Get the `~/.shoov.json` file by following copy/ pasting the code in your termnial.
+
+Validate the code is there `cat ~/.shoov.json`
