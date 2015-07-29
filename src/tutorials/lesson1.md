@@ -19,6 +19,12 @@ sudo mv composer.phar /usr/local/bin/composer
 
 1. Login to Shoov
 1. Register to BrowserStack or Sauce Labs
+
+https://www.browserstack.com/automate
+
+![BrowserStack credentials](/assets/images/tutorials/lesson1/browserstack-credentials.jpg)
+
+
 1. Add credentials under my-account
 
 Get the `~/.shoov.json` file by following copy/ pasting the code in your terminal.
