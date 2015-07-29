@@ -18,14 +18,15 @@ sudo mv composer.phar /usr/local/bin/composer
 # One time Setup
 
 1. Login to Shoov
-1. Register to BrowserStack or Sauce Labs
-
-https://www.browserstack.com/automate
+1. Register to BrowserStack (You can also use Sauce Labs, but for this tutorial we have chosen BrowserStack as it provides a more a affordable solution. If you have Sauce labs account you can skip to section (4) and add your Sauce Labs credentials instead)
+1. Get your BrowserStack [credentials](https://www.browserstack.com/automate)
 
 ![BrowserStack credentials](/assets/images/tutorials/lesson1/browserstack-credentials.jpg)
 
+1. Add the credentials under [my-account](https://app.shoov.io/#/my-account)
 
-1. Add credentials under my-account
+![Adding BrowserStack credentials to My account](/assets/images/tutorials/lesson1/my-account.jpg)
+
 
 Get the `~/.shoov.json` file by following copy/ pasting the code in your terminal.
 
