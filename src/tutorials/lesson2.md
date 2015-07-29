@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Lesson 2 - Scaffold a new or existing repo
 ---
 
