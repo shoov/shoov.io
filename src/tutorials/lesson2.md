@@ -15,6 +15,15 @@ Next we will scaffold all the needed files. For this we will use the previously 
 yo shoov
 ```
 
+This will scaffold the following files and directories:
+
+```
+.shoov.yml
+|
+|-- visual-monitor
+|
+|-- behat
+```
 
 
 ## Visual monitor first time
