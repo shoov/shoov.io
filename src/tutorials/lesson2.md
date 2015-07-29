@@ -1,14 +1,21 @@
 ---
 layout: page
-title: Lesson 2 - Scaffold a new or existing repo
+title: Lesson 2 - Setup a GitHub repository
 ---
 
+The following section can be used on existing repositories, but for the sake of simplicity lets create a new repository in GitHub.
 
-## Scaffold
+Go ahead and make it public if you want, so other could educate from it.
+
+![Create a GitHub repository](/assets/images/tutorials/lesson2/create-repo.jpg)
+
+Next we will scaffold all the needed files. For this we will use the previously installed generator-shoov. Execute the command from inside the newly created and cloned repository.
 
 ```bash
 yo shoov
 ```
+
+
 
 ## Visual monitor first time
 
