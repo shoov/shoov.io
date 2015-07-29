@@ -3,31 +3,14 @@ layout: page
 title: Lesson 1 - Installation
 ---
 
-## Mac
-
-* Install [Brew](http://brew.sh/)
+## General
 
 ```bash
-brew install graphicsmagick
-
-# You might `sudo` for the below command
+# You might need to `sudo` for the below command
 npm install -g mocha yo generator-shoov
 
 # Install composer globally
 
-curl -sS https://getcomposer.org/installer | php
-sudo mv composer.phar /usr/local/bin/composer
-```
-
-## Ububntu
-
-```bash
-sudo apt-get install graphicsmagick
-
-# You might `sudo` for the below command
-npm install -g mocha yo generator-shoov
-
-# Install composer globally
 curl -sS https://getcomposer.org/installer | php
 sudo mv composer.phar /usr/local/bin/composer
 ```
@@ -38,6 +21,18 @@ sudo mv composer.phar /usr/local/bin/composer
 1. Register to BrowserStack or Sauce Labs
 1. Add credentials under my-account
 
-Get the `~/.shoov.json` file by following copy/ pasting the code in your termnial.
+Get the `~/.shoov.json` file by following copy/ pasting the code in your terminal.
 
-Validate the code is there `cat ~/.shoov.json`
+## Mac
+
+* Install [Brew](http://brew.sh/)
+
+```bash
+brew install graphicsmagick
+```
+
+## Ububntu
+
+```bash
+sudo apt-get install graphicsmagick
+```
