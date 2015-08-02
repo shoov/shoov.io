@@ -30,6 +30,7 @@ PROVIDER_PREFIX=browserstack SELECTED_CAPS=chrome mocha
 ```
 
 Lets break the above command:
+
 1. `PROVIDER_PREFIX=browserstack`: This tells our test to pick the configuration of BrowserStack, instead of for example using the default PhantomJs configuration.
 1. `SELECTED_CAPS=chrome`: The selected capabilities for this is `chrome`. This is an arbitrary name that is indicated in our test as Chrome version 42.0 on a Mac Yosemite. You may add as many capabilities as you wish.
 1. `mocha`: This executes all the tests under the `test` folder, and reports if tests failed or passed.
@@ -53,3 +54,11 @@ We can now continue creating baselines for different browsers. The test doesn't 
 ```bash
 PROVIDER_PREFIX=browserstack SELECTED_CAPS=ie11 mocha
 ```
+
+Don't rush! Open the baseline images that were done for IE. Have a close look. Are they ok?
+
+Unfortunetly, yet unsurprisingly, IE behaves differently than Chrome. The fixed navbar seems to repeat when the smaller images created by webdriverCSS are "stitched" together, resulting with a wrong image (see [issue]((https://github.com/webdriverio/webdrivercss/issues/56)) in webdriverCSS).
+
+![The fixed navbar is duplicated](/assets/images/tutorials/lesson3/ie-fixed-navbar.jpg)
+
+In the next chapter we will see how to deal with this.

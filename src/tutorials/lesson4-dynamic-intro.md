@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Lesson 4 - Dynamic page
+title: Lesson 4 - Dynamic Elements Intro
 ---
 
 # Overview
@@ -28,8 +28,45 @@ As mentioned above, the dynamic content isn't always in a fixed size. A tweet ca
 
 This leaves us with `hide`. The reason it's not often used is because we'd most cases opt with `remove`. However on cases such as a carousel, where some elements are hidden by `overflow`, using `exclude` will result with black rectangles in unexpected areas. Or, again with a carousel example, the black rectangle may hide the caption - which is in a fixed size.
 
-# Practice
+## Fixed elements
 
-http://pages.shoov.io/dynamic-page has few elements that are dynamic.
+Before we try to tackle complex scenarios, we still need to figure out how to capture the previous static page on IE - as it resulted with the fixed navbar being duplicated.
 
-We should now decide which ignoring method to use on each one.
+Now that we know the most common commands, we can already fix our problem!
+
+We could simply `remove` the navbar but maybe we can take a more balanced approach. How about, keeping it on Chrome, and remove it just for IE.
+
+Say something like this.
+
+```js
+.webdrivercss(testName + '.homepage', {
+  name: '1',
+  remove: [
+    // Hide the navbar on IE, as it's fixed.
+    selectedCaps == 'ie11' ? '.navbar-fixed-top' : '',
+  ],
+  // ...
+}
+```
+
+This is a good solution, but we can actually run write another test specifically for IE, where it will capture only the navbar. For that we will use the `elem` property which accepts a CSS selector, and will capture only that element. We could then wrap our test with an IF statement, that will be executed only if the selected capabilities are IE.
+
+Something like this:
+
+```js
+if (selectedCaps == 'ie11') {
+
+  it('should show the fixed navbar element',function(done) {
+    client
+      .url(baseUrl)
+      .webdrivercss(testName + '.navbar', {
+        name: '1',
+        // Get only the fixed navbar.
+        elem: '.navbar-fixed-top'
+      }, resultsCallback)
+      .call(done);
+  });
+};
+```
+
+In the next chapter we will dive into more complex dynamic elements.
