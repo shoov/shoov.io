@@ -3,6 +3,8 @@ layout: page
 title: Lesson 4 - Dynamic page
 ---
 
+# Overview
+
 Previous page was completely static. That means that no matter when we navigate to it, it will always look the same.
 Websites however tend to be more dynamic. But how would a pixel-by-pixel comparison work with such pages? By ignoring them.
 
@@ -24,4 +26,10 @@ By default you should probably exclude. Even if the element is dynamic, it might
 
 As mentioned above, the dynamic content isn't always in a fixed size. A tweet can be consisted of a single or several lines - no way to predict. In such cases the `remove` should be used.
 
-This leaves us with `hide`. The reason it's not often used is because we'd most cases opt with `remove`. However on cases such as a carousel, where some elements are hidden by `overflow`, using `exclude` will result with black rectangles in unexpected areas.
+This leaves us with `hide`. The reason it's not often used is because we'd most cases opt with `remove`. However on cases such as a carousel, where some elements are hidden by `overflow`, using `exclude` will result with black rectangles in unexpected areas. Or, again with a carousel example, the black rectangle may hide the caption - which is in a fixed size.
+
+# Practice
+
+http://pages.shoov.io/dynamic-page has few elements that are dynamic.
+
+We should now decide which ignoring method to use on each one.
