@@ -57,3 +57,12 @@ This means we should probably `hide` the images, instead of excluding them.
 
 Now we need to deal with the captions and carousel indicators. Exclude? Unfortunetly it won't work for the same reasons we now understand about the images in the carousel.
 Our options are now `remove` or `hide`. Both will work in our example, however `hide` would probably be a better practice. Since `remove` completely hides the element and makes sure it no longer takes any space - we might create a distortion in the page, as elements that no longer take space, might be pushed by the elements below them.
+
+![Hidden images in the carousel](/assets/images/tutorials/lesson5/carousel.jpg)
+
+## Text
+
+The text part is pretty straight forward. The text changes, and length of it is unknow. A clear case of `remove`.
+
+
+![End result](/assets/images/tutorials/lesson5/end-result.jpg)
