@@ -19,6 +19,8 @@ Different element, require different tools.
 
 If you think `exclude` is the right approach in order to hide the flip cards - you are almost right. But experience shows that it's important to try it out. And try it out more than once.
 
+![Clock excluded incorrectly](/assets/images/tutorials/lesson5/clock-wings.jpg)
+
 See those weird "wings" popping out over the flip car's black rectangle? This is actually the clock continuing to flip the cards as we take the snapshot. Excluding the element, didn't exclude all its child elements that are created and destroyed using JS.
 
 In fact, we have an interesting situation here, where we want to `hide` the element (i.e. make it invisible, but keep the space) _and_ still mark it as black rectangle, so we get a visual confirmation the elements are there and in the right place and size.
