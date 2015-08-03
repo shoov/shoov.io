@@ -3,6 +3,8 @@ layout: page
 title: Lesson 1 - Installation & Setup
 ---
 
+After reading the [glossary](/glossary), you should be able to install and setup your own computer.
+
 ## Installation
 
 ```bash
