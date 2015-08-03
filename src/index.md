@@ -8,7 +8,7 @@ title: Home
 
 > Shoov is a tool for visual regression testing and live monitoring using your preferred functional testing framework.
 
-Learn more from our [glossary](/glossary) and [tutorials](/tutorials/lesson1-install/)
+# Learn more from our [glossary](/glossary) and [tutorials](/tutorials/lesson1-install/)
 
 <div class="small">The tutorials are still work in progress, and more chapters will be added. If you find any mistake, please <a href="https://github.com/shoov/shoov.io">fork</a> the repository and help us fix it</div>
 
