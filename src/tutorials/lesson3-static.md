@@ -39,7 +39,7 @@ Open BrowserStack's automate page, and see how BrowserStack has provisioned a VM
 
 Once finished you will find a new folder called `webdrivercss` - this is where all your baseline images will be saved.
 
-You will see two files over there. We care only about the one that ends with `baseline.png` (in fact when we'll do `git add webdrivercss` it will add only the files that end with `baseline.png`, the rest are disregarded - more on that file in the dynamic page tutorial***).
+You will see two files over there. We care only about the one that ends with `baseline.png` .In fact when we'll do `git add webdrivercss` it will add only the files that end with `baseline.png`, the rest are disregarded.
 
 Lets confirm our baseline is correct by visually checking it and then by re-running the exact same test.
 
