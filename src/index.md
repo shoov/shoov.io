@@ -10,8 +10,7 @@ title: Home
 
 Learn more from our [glossary](/glossary) and [tutorials](/tutorials/lesson1-install/)
 
-<div class="small">The tutorials are still work in progress, and more chapters will be added. If you find any mistake, please <a href="https://github.com/shoov/shoov.io">fork</a> the repository and fix it</div>
-
+<div class="small">The tutorials are still work in progress, and more chapters will be added. If you find any mistake, please <a href="https://github.com/shoov/shoov.io">fork</a> the repository and help us fix it</div>
 
 ## Blog posts
 
@@ -21,7 +20,7 @@ Learn more from our [glossary](/glossary) and [tutorials](/tutorials/lesson1-ins
 * [Cross Browser Visual Regression Tests With Shoov](http://www.gizra.com/content/cross-browser-visual-regression-with-shoov/)
 * [Shoov - CI tests on the live site](http://www.gizra.com/content/shoov-ci-tests-live-site/)
 
-## Philosophy in a nutshell
+## Our philosophy in a nutshell
 
 1. No vendor lock-in, you own the data
 1. Keep close to your existing development workflows
