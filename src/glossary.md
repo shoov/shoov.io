@@ -3,7 +3,7 @@ layout: page
 title: Glossary
 ---
 
-### Visual regression
+## Visual regression
 
 Testing UI differences based on predefined set of images.
 
