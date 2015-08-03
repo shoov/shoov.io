@@ -38,3 +38,5 @@ Paid services that allow provisioning a virtual machine with a pre-defined platf
 ## Shoov
 
 An open source project that facilitates maintaining visual regression tests, and allows one click configuration and execution of visual and functional tests on any dev/ live website.
+
+Next you can start the [tutorial](/tutorials/lesson1-install/)

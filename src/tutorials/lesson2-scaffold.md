@@ -27,6 +27,6 @@ This will scaffold the following files and directories:
 |-- behat
 ```
 
-For now we care about the `visual-monitor` folder so you can navigate there
+For now we care about the `visual-monitor` folder so you can navigate there `cd visual-monitor`
 
-`cd visual-monitor`
+In [next chapter](/tutorials/lesson3-static-page/) we will create our first visual regression test
