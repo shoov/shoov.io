@@ -15,7 +15,7 @@ title: Home
 ## Blog posts
 
 * [Visually Monitoring Drupal.org](http://www.gizra.com/content/visual-monitor-drupal/)
-* [Visual regression tests on every commit](http://www.gizra.com/content/visual-monitor-drupal/)
+* [Visual regression tests on every commit](http://www.gizra.com/content/visual-regression-travis-shoov-ngrok/)
 * [How we could monitor Twitter (if we had to)](http://www.gizra.com/content/shoov-monitor-twitter/)
 * [Cross Browser Visual Regression Tests With Shoov](http://www.gizra.com/content/cross-browser-visual-regression-with-shoov/)
 * [Shoov - CI tests on the live site](http://www.gizra.com/content/shoov-ci-tests-live-site/)
