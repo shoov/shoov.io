@@ -16,6 +16,11 @@ var reload = browserSync.reload;
 // And define a variable that BrowserSync uses in it"s function
 var bs;
 
+gulp.task('copyBowerComponents', function() {
+  gulp.src('./src/_bower_components/**/*.*')
+    .pipe(gulp.dest('./serve/_bower_components/'));
+});
+
 // Deletes the directory that is used to serve the site during development
 gulp.task("clean:dev", del.bind(null, ["serve"]));
 
@@ -144,7 +149,7 @@ gulp.task("doctor", $.shell.task("jekyll doctor"));
 // BrowserSync will serve our site on a local server for us and other devices to use
 // It will also autoreload across all devices as well as keep the viewport synchronized
 // between them.
-gulp.task("serve:dev", ["styles", "jekyll:dev"], function () {
+gulp.task("serve:dev", ["styles", "jekyll:dev", 'copyBowerComponents'], function () {
   bs = browserSync({
     notify: true,
     // tunnel: "",
