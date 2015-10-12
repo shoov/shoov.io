@@ -1,27 +1,11 @@
-/*
-The main SCSS file for everything, yep
-*/
-
-@import "poole";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "../stylesheets/theme-style.css";
 @import "syntax";
-@import "lanyon";
 
+main {
+  margin-top: 95px;
 
-.login-message {
-  text-align: center;
-}
-
-.small {
-  font-size: 13px;
-}
-
-.teaser-image {
-  border: 1px solid lightgray;
-  padding: 10px;
-  margin-top: 30px;
-}
-
-footer {
-  margin-top: 30px;
-  font-size: 14px;
+  .bg-slider-wrapper {
+    background: #253340;
+  }
 }

@@ -1,30 +1,55 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-
+<!--[if IE 8]> <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us"> <!--<![endif]-->
   {% include head.html %}
-
   <body>
+  <!-- ******HEADER****** -->
+  <header id="header" class="header navbar-fixed-top">
+    <div class="container">
+      <h1 class="logo">
+        <a href="/"><span class="text">Shoov.io</span></a>
+      </h1><!--//logo-->
+      <nav class="main-nav navbar-right" role="navigation">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button><!--//nav-toggle-->
+        </div><!--//navbar-header-->
+        <div id="navbar-collapse" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="nav-item{% if page.title == 'Home' %} active{% endif %}"><a href="/">Home</a></li>
+            <li class="nav-item{% if page.title == 'Glossary' %} active{% endif %}"><a href="glossary">Glossary</a></li>
+            <li class="nav-item dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Toturial <i class="fa fa-angle-down"></i></a>
+              <ul class="dropdown-menu">
 
-    {% include sidebar.html %}
+                {% comment %}
+                  The code below dynamically generates a sidebar nav of
+                  pages with `layout: page`.
+                {% endcomment %}
 
-    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
-         content to avoid any CSS collisions with our real content. -->
-    <div class="wrap">
-      <div class="masthead">
-        <div class="container">
-          <h3 class="masthead-title">
-            <a href="/" title="Home">{{ site.title }}</a>
-            <small>{{ site.tagline }}</small>
-          </h3>
-        </div>
-      </div>
-
-      <div class="container content">
-        {{ content }}
-      </div>
-    </div>
-
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
-
+                {% assign pages_list = site.pages %}
+                {% for node in pages_list %}
+                  {% if node.title != null %}
+                    {% if node.layout == "page" %}
+                <li class="{% if page.url == node.url %} active{% endif %}"><a href="{{ node.url }}">{{ node.title }}</a></li>
+                    {% endif %}
+                  {% endif %}
+                {% endfor %}
+              </ul>
+            </li><!--//dropdown-->
+            <li class="nav-item nav-item-cta last"><a class="btn btn-cta btn-cta-secondary" href="https://app.shoov.io">Login or register into the app</a></li>
+          </ul><!--//nav-->
+        </div><!--//navabr-collapse-->
+      </nav><!--//main-nav-->
+    </div><!--//container-->
+  </header><!--//header-->
+  <main>
+    {{ content }}
+  </main>
   </body>
 </html>
