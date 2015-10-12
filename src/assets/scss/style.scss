@@ -3,9 +3,12 @@
 @import "syntax";
 
 main {
-  margin-top: 95px;
 
-  .bg-slider-wrapper {
+  &:not('.home-page') {
+    margin-top: 95px;
+  }
+
+  .promo {
     background: #253340;
   }
 }

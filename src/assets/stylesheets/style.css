@@ -6200,7 +6200,8 @@ button.close {
 .css .nt + .nt {
   color: #999; }
 
-main {
+main:not('.home-page') {
   margin-top: 95px; }
-  main .bg-slider-wrapper {
-    background: #253340; }
+
+main .promo {
+  background: #253340; }
