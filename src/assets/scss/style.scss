@@ -43,14 +43,15 @@ main {
   .promo.section {
     padding-top: 120px;
     padding-bottom: 100px;
-    background: $darkBlue;
     margin-bottom: 0px;
+    background: $darkBlue;
+
 
     @include from-mobile {
       height: auto;
     }
 
-    .gizra-logo {
+    h1 .gizra-logo {
       display: inline-block;
       margin-left: 10px;
       font-size: 48px;
@@ -64,7 +65,7 @@ main {
         max-width: 100%;
         margin-top: 25px;
         margin-bottom: 0px;
-        padding: 20px 30px 20px 30px;
+        padding: 15px;
         display: inline-block;
         color: $gray;
         font-size: 18px;
@@ -90,7 +91,18 @@ main {
         margin: 25px auto 0px auto;
         padding: 15px;
         background-color: rgba(123, 135, 146, 0.12);
+        background: $light-gray;
         border-radius: 4px;
+        box-shadow: 4px 4px 30px #252729;
+
+        img {
+          border: 1px solid #A2A2A2;
+        }
+      }
+
+      .contact-us-title {
+        font-size: 21px;
+        padding-bottom: 0px;
       }
     }
   }
@@ -108,7 +120,7 @@ main {
       border-radius: 5px;
       padding: 30px;
       max-width: 770px;
-      bottom: -150px;
+      bottom: -115px;
       z-index: 100;
       box-shadow: 2px 2px 20px rgba(37, 39, 41, 0.22);
 
@@ -143,11 +155,5 @@ main {
 
   &.scrolled {
     background: white;
-
-    .main-nav .nav >.nav-item a {
-    }
-
-    .main-nav .nav .dropdown-menu a {
-    }
   }
 }

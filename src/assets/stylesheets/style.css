@@ -6370,12 +6370,12 @@ main:not('.home-page') {
 main .promo.section {
   padding-top: 120px;
   padding-bottom: 100px;
-  background: #253340;
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+  background: #253340; }
   @media (min-width: 480px) {
     main .promo.section {
       height: auto; } }
-  main .promo.section .gizra-logo {
+  main .promo.section h1 .gizra-logo {
     display: inline-block;
     margin-left: 10px;
     font-size: 48px;
@@ -6386,7 +6386,7 @@ main .promo.section {
       max-width: 100%;
       margin-top: 25px;
       margin-bottom: 0px;
-      padding: 20px 30px 20px 30px;
+      padding: 15px;
       display: inline-block;
       color: #999999;
       font-size: 18px;
@@ -6406,7 +6406,14 @@ main .promo.section {
       margin: 25px auto 0px auto;
       padding: 15px;
       background-color: rgba(123, 135, 146, 0.12);
-      border-radius: 4px; }
+      background: #f5f5f5;
+      border-radius: 4px;
+      box-shadow: 4px 4px 30px #252729; }
+      main .promo.section .container .video img {
+        border: 1px solid #A2A2A2; }
+    main .promo.section .container .contact-us-title {
+      font-size: 21px;
+      padding-bottom: 0px; }
 
 main .more-shoov {
   position: relative; }
@@ -6420,7 +6427,7 @@ main .more-shoov {
     border-radius: 5px;
     padding: 30px;
     max-width: 770px;
-    bottom: -150px;
+    bottom: -115px;
     z-index: 100;
     box-shadow: 2px 2px 20px rgba(37, 39, 41, 0.22); }
     main .more-shoov .container p {
