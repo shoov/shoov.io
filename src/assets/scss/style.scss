@@ -111,6 +111,27 @@ main {
         }
       }
 
+      .toturial {
+        width: 100%;
+        position: relative;
+
+        a {
+          z-index: 5;
+          position: absolute;
+          display: inline-block;
+          width: auto;
+        }
+
+        .line {
+          left: 0px;
+          top: 14px;
+          position: absolute;
+          height: 1px;
+          width: 100%;
+          background: $turquoise;
+        }
+      }
+
       .contact-us-title {
         font-size: 21px;
         padding-bottom: 0px;

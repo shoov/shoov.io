@@ -21,10 +21,10 @@
         </div>
         <div id="navbar-collapse" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="nav-item {% if page.title == 'Home' %} active {% endif %}"><a href="/">Home</a></li>
-            <li class="nav-item {% if page.title == 'Glossary' %} active {% endif %}"><a href="/glossary">Glossary</a></li>
+            <li class="nav-item {% if page.title == 'Home' %} active {% endif %}"><a href="/"><i class="fa fa-home"></i> Home</a></li>
+            <li class="nav-item {% if page.title == 'Glossary' %} active {% endif %}"><a href="/glossary"><i class="fa fa-book"></i> Glossary</a></li>
             <li class="nav-item dropdown">
-              <a class="dropdown-toggle nav-item {% if page.type == 'tutorial' %} active {% endif %}" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Toturial <i class="fa fa-angle-down"></i></a>
+              <a class="dropdown-toggle nav-item {% if page.type == 'tutorial' %} active {% endif %}" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#"><i class="fa fa-graduation-cap"></i> Toturial <i class="fa fa-angle-down"></i></a>
               <ul class="dropdown-menu">
                 {% assign tutorials = site.pages %}
                 {% for node in tutorials %}
