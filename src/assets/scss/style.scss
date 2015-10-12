@@ -3,14 +3,41 @@
 @import "_syntax";
 @import "_mixins";
 
+
+.gizra-logo {
+  font-family: Abril Fatface;
+  color: $gizra-color;
+}
+
+.turquoise {
+  color: $turquoise;
+}
+
 main {
 
   &:not('.home-page') {
     margin-top: 95px;
   }
 
-  .promo {
+  .promo.section {
     background: #253340;
+
+    .gizra-logo {
+      display: inline-block;
+      margin-left: 10px;
+      font-size: 48px;
+      letter-spacing: 0.015em;
+    }
+
+
+    .intro {
+      max-width: inherit;
+
+      strong {
+        width: 100%;
+        display: inline-block;
+      }
+    }
   }
 }
 
@@ -23,7 +50,7 @@ main {
   }
 
   .dropdown-menu > .active > a {
-    background-color: $turkiz;
+    background-color: $turquoise;
   }
 
   &.scrolled {

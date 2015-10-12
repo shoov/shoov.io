@@ -6200,11 +6200,28 @@ button.close {
 .css .nt + .nt {
   color: #999; }
 
+.gizra-logo {
+  font-family: Abril Fatface;
+  color: #e27058; }
+
+.turquoise {
+  color: #28A5A8; }
+
 main:not('.home-page') {
   margin-top: 95px; }
 
-main .promo {
+main .promo.section {
   background: #253340; }
+  main .promo.section .gizra-logo {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 48px;
+    letter-spacing: 0.015em; }
+  main .promo.section .intro {
+    max-width: inherit; }
+    main .promo.section .intro strong {
+      width: 100%;
+      display: inline-block; }
 
 #header {
   background: #253340;
