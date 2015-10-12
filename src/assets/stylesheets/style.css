@@ -6351,6 +6351,12 @@ a {
   a:hover, a:focus {
     color: #2886a2; }
 
+.simple-title {
+  font-size: 36px;
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 60px; }
+
 main:not('.home-page') {
   margin-top: 95px; }
 
@@ -6392,6 +6398,16 @@ main .promo.section {
       padding: 15px;
       background-color: rgba(123, 135, 146, 0.12);
       border-radius: 4px; }
+
+main .more-shoov {
+  padding-top: 80px;
+  background: #f5f5f5; }
+  main .more-shoov .container {
+    background-color: white;
+    padding: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.22);
+    border-radius: 5px;
+    max-width: 500px; }
 
 #header {
   background: #253340;

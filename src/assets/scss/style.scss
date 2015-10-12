@@ -19,6 +19,13 @@ a {
   }
 }
 
+.simple-title {
+  font-size: 36px;
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+
 main {
 
   &:not('.home-page') {
@@ -79,7 +86,19 @@ main {
         border-radius: 4px;
       }
     }
+  }
 
+  .more-shoov {
+    padding-top: 80px;
+    background: $light-gray;
+
+    .container {
+      background-color: white;
+      padding: 30px;
+      border: 1px solid rgba(0, 0, 0, 0.22);
+      border-radius: 5px;
+      max-width: 500px;
+    }
   }
 }
 
