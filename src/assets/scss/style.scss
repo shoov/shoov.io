@@ -18,6 +18,10 @@ main {
   background: $dark_blue;
   color: #fff;
 
+  .dropdown-toggle.nav-item.active {
+    font-weight: bold;
+  }
+
   .dropdown-menu > .active > a {
     background-color: $turkiz;
   }
@@ -30,15 +34,5 @@ main {
 
     .main-nav .nav .dropdown-menu a {
     }
-
-
-//    .main-nav .nav .nav-item.nav-item-cta a.btn-cta-secondary {
-//      background: @color;
-//      border-color: @color;
-//    }
-
-
   }
-
-
 }
