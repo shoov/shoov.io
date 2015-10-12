@@ -21,14 +21,15 @@ $screen-xs-max: ($screen-is-min - 1);
 // Including the custom grid css.
 @import "_grids.scss";
 
-$dark_blue: #253340;
+$dark-blue: #253340;
 $turquoise: #28A5A8;
 $light-turquoise: #2886a2;
-$gizra-color: #e27058;
+$dark-turquoise: #288A8D;
+$gizra: #e27058;
 $gray: #999999;
 $light-gray: #f5f5f5;
-$mediumBlue: #194D7D;
-$darkBlue: #253340;
+$medium-blue: #194D7D;
+$dark-blue: #253340;
 
 /* Large Devices, Wide Screens */
 @mixin large-desktop-only {

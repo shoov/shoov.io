@@ -6351,10 +6351,18 @@ a {
   a:hover, a:focus {
     color: #2886a2; }
 
+.btn-primary {
+  color: white;
+  background-color: #28A5A8;
+  border-color: #28A5A8; }
+  .btn-primary:hover {
+    background-color: #288A8D;
+    border-color: #288A8D; }
+
 hr {
   background: whitesmoke;
   height: 1px;
-  width: 100%;
+  width: 90%;
   display: block;
   border-bottom: 1px solid #e2e2e2; }
 
@@ -6425,19 +6433,42 @@ main .more-shoov {
     background-color: white;
     border: 1px solid rgba(0, 0, 0, 0.22);
     border-radius: 5px;
-    padding: 30px;
     max-width: 770px;
-    bottom: -115px;
+    bottom: -78px;
     z-index: 100;
     box-shadow: 2px 2px 20px rgba(37, 39, 41, 0.22); }
     main .more-shoov .container p {
       font-size: 18px;
       color: #194D7D; }
+    main .more-shoov .container #shoov-trail-form {
+      padding: 20px; }
+      main .more-shoov .container #shoov-trail-form .form-group {
+        padding: 0px; }
+        main .more-shoov .container #shoov-trail-form .form-group:last-child {
+          margin-bottom: 0px; }
 
-main .clients {
-  background: #f5f5f5; }
-  main .clients .press {
-    padding-top: 200px; }
+main #clients {
+  background: #f5f5f5;
+  padding-bottom: 60px;
+  padding-top: 120px;
+  text-align: center;
+  position: relative; }
+  main #clients .title {
+    font-family: 'Droid Serif', serif;
+    margin-top: 25px; }
+  main #clients .container {
+    max-width: 800px; }
+    main #clients .container .logo {
+      float: left;
+      height: 120px;
+      line-height: 120px;
+      text-align: center; }
+      main #clients .container .logo img {
+        vertical-align: middle;
+        display: inline-block; }
+      @media (min-width: 479px) {
+        main #clients .container .logo {
+          width: 20%; } }
 
 #header {
   background: #253340;
