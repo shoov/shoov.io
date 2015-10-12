@@ -6420,21 +6420,19 @@ main .promo.section {
       main .promo.section .container .video img {
         border: 1px solid #A2A2A2; }
     main .promo.section .container .toturial {
-      width: 100%;
-      position: relative; }
-      main .promo.section .container .toturial a {
-        z-index: 5;
-        position: absolute;
-        display: inline-block;
-        width: auto; }
-      main .promo.section .container .toturial .line {
-        left: 0px;
-        top: 14px;
-        position: absolute;
-        height: 1px;
-        width: 100%;
+      font-size: 16px;
+      font-weight: normal;
+      padding: 10px;
+      background: #253340;
+      margin-top: 25px;
+      margin: 25px auto 0px auto;
+      display: inline-block;
+      width: auto; }
+      main .promo.section .container .toturial:hover, main .promo.section .container .toturial:focus {
+        color: white;
         background: #28A5A8; }
     main .promo.section .container .contact-us-title {
+      margin-top: 25px;
       font-size: 21px;
       padding-bottom: 0px; }
 
@@ -6488,6 +6486,8 @@ main #clients {
 #header {
   background: #253340;
   color: #fff; }
+  #header .main-nav .nav .nav-item.nav-item-cta a.btn-cta-secondary {
+    font-weight: normal; }
   #header .dropdown-toggle.nav-item.active {
     font-weight: bold; }
   #header .dropdown-menu > .active > a {
