@@ -31,7 +31,11 @@ main {
 
 
     .intro {
-      max-width: inherit;
+      margin-top: 25px;
+      border: 1px solid #28A5A8;
+      padding: 20px;
+      display: inline-block;
+      border-radius: 5px;
 
       strong {
         width: 100%;

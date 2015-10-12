@@ -6218,7 +6218,11 @@ main .promo.section {
     font-size: 48px;
     letter-spacing: 0.015em; }
   main .promo.section .intro {
-    max-width: inherit; }
+    margin-top: 25px;
+    border: 1px solid #28A5A8;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 5px; }
     main .promo.section .intro strong {
       width: 100%;
       display: inline-block; }
