@@ -23,7 +23,9 @@ $screen-xs-max: ($screen-is-min - 1);
 
 $dark_blue: #253340;
 $turquoise: #28A5A8;
+$light-turquoise: #2886a2;
 $gizra-color: #e27058;
+$gray: #999999;
 
 /* Large Devices, Wide Screens */
 @mixin large-desktop-only {

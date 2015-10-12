@@ -6346,11 +6346,18 @@ button.close {
 .turquoise {
   color: #28A5A8; }
 
+a {
+  color: #28A5A8; }
+  a:hover, a:focus {
+    color: #2886a2; }
+
 main:not('.home-page') {
   margin-top: 95px; }
 
 main .promo.section {
-  background: #253340; }
+  padding-top: 90px;
+  background: #253340;
+  margin-bottom: 0px; }
   @media (min-width: 480px) {
     main .promo.section {
       height: auto; } }
@@ -6359,18 +6366,34 @@ main .promo.section {
     margin-left: 10px;
     font-size: 48px;
     letter-spacing: 0.015em; }
-  main .promo.section .intro {
-    max-width: 800px;
-    margin-top: 25px;
-    border: 1px solid #28A5A8;
-    padding: 20px;
-    display: inline-block;
-    border-radius: 5px;
-    box-shadow: 2px 2px 20px #252729; }
-    main .promo.section .intro strong {
-      font-size: 20px;
-      width: 100%;
-      display: inline-block; }
+  main .promo.section .container {
+    max-width: 800px; }
+    main .promo.section .container .light-box, main .promo.section .container .intro {
+      max-width: 100%;
+      margin-top: 25px;
+      margin-bottom: 25px;
+      padding: 20px;
+      display: inline-block;
+      color: #999999;
+      font-size: 18px;
+      border-radius: 5px;
+      border: 1px solid; }
+    main .promo.section .container .light-box {
+      box-shadow: 2px 2px 20px rgba(37, 39, 41, 0.47);
+      border-color: rgba(205, 212, 212, 0.21); }
+    main .promo.section .container .intro {
+      border-color: #28A5A8;
+      box-shadow: 2px 2px 20px #252729; }
+      main .promo.section .container .intro .first-liner {
+        font-weight: bold;
+        font-size: 20px;
+        width: 100%;
+        display: inline-block; }
+    main .promo.section .container .video {
+      margin: 0 auto;
+      padding: 15px;
+      background-color: rgba(123, 135, 146, 0.12);
+      border-radius: 4px; }
 
 #header {
   background: #253340;
