@@ -1,5 +1,6 @@
 ---
 layout: page
+type: tutorial
 title: Lesson 5 - Complex Dynamic Elements
 ---
 

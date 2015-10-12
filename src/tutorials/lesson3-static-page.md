@@ -1,5 +1,6 @@
 ---
 layout: page
+type: tutorial
 title: Lesson 3 - First Baseline Image
 ---
 

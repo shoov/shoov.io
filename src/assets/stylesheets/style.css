@@ -6205,3 +6205,11 @@ main:not('.home-page') {
 
 main .promo {
   background: #253340; }
+
+#header {
+  background: #253340;
+  color: #fff; }
+  #header .dropdown-menu > .active > a {
+    background-color: #28A5A8; }
+  #header.scrolled {
+    background: white; }

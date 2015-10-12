@@ -1,6 +1,7 @@
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 @import "../stylesheets/theme-style.css";
-@import "syntax";
+@import "_syntax";
+@import "_mixins";
 
 main {
 
@@ -11,4 +12,33 @@ main {
   .promo {
     background: #253340;
   }
+}
+
+#header {
+  background: $dark_blue;
+  color: #fff;
+
+  .dropdown-menu > .active > a {
+    background-color: $turkiz;
+  }
+
+  &.scrolled {
+    background: white;
+
+    .main-nav .nav >.nav-item a {
+    }
+
+    .main-nav .nav .dropdown-menu a {
+    }
+
+
+//    .main-nav .nav .nav-item.nav-item-cta a.btn-cta-secondary {
+//      background: @color;
+//      border-color: @color;
+//    }
+
+
+  }
+
+
 }
