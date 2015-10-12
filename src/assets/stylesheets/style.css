@@ -6376,13 +6376,11 @@ main .promo.section {
       display: inline-block;
       color: #999999;
       font-size: 18px;
-      border-radius: 5px;
-      border: 1px solid; }
+      border-radius: 5px; }
     main .promo.section .container .light-box {
-      box-shadow: 2px 2px 20px rgba(37, 39, 41, 0.47);
-      border-color: rgba(205, 212, 212, 0.21); }
+      background-color: rgba(123, 135, 146, 0.12); }
     main .promo.section .container .intro {
-      border-color: #28A5A8;
+      border: 1px solid #28A5A8;
       box-shadow: 2px 2px 20px #252729; }
       main .promo.section .container .intro .first-liner {
         font-weight: bold;

@@ -53,16 +53,15 @@ main {
         color: $gray;
         font-size: 18px;
         border-radius: 5px;
-        border: 1px solid;
       }
 
       .light-box {
-        box-shadow: 2px 2px 20px rgba(37, 39, 41, 0.47);
-        border-color: rgba(205, 212, 212, 0.21);
+        background-color: rgba(123, 135, 146, 0.12);
+
       }
 
       .intro {
-        border-color: $turquoise;
+        border: 1px solid $turquoise;
         box-shadow: 2px 2px 20px #252729;
 
         .first-liner {
