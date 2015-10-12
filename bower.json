@@ -4,7 +4,6 @@
   "dependencies": {},
   "devDependencies": {
     "jquery": "jQuery#~2.1.4",
-    "font-awesome": "~4.4.0",
     "jquery-placeholder": "~2.1.3",
     "bootstrap-hover-dropdown": "~2.1.3",
     "bootstrap-sass": "~3.3.5"
