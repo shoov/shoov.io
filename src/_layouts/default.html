@@ -8,7 +8,7 @@
   <header id="header" class="header navbar-fixed-top">
     <div class="container">
       <h1 class="logo">
-        <a href="index.html"><span class="text">Shoov.io</span></a>
+        <a href="/"><span class="text">Shoov.io</span></a>
       </h1><!--//logo-->
       <nav class="main-nav navbar-right" role="navigation">
         <div class="navbar-header">
@@ -26,13 +26,20 @@
             <li class="nav-item dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Toturial <i class="fa fa-angle-down"></i></a>
               <ul class="dropdown-menu">
-                <li><a href="download.html">Download Apps</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="blog-single.html">Blog Single</a></li>
-                <li><a href="blog-category.html">Blog Category</a></li>
-                <li><a href="blog-archive.html">Blog Archive</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="contact.html">Contact</a></li>
+
+                {% comment %}
+                  The code below dynamically generates a sidebar nav of
+                  pages with `layout: page`.
+                {% endcomment %}
+
+                {% assign pages_list = site.pages %}
+                {% for node in pages_list %}
+                  {% if node.title != null %}
+                    {% if node.layout == "page" %}
+                <li class="{% if page.url == node.url %} active{% endif %}"><a href="{{ node.url }}">{{ node.title }}</a></li>
+                    {% endif %}
+                  {% endif %}
+                {% endfor %}
               </ul>
             </li><!--//dropdown-->
             <li class="nav-item nav-item-cta last"><a class="btn btn-cta btn-cta-secondary" href="https://app.shoov.io">Login or register into the app</a></li>
