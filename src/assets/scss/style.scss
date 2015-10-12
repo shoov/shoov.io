@@ -113,6 +113,12 @@ main {
       bottom: -150px;
       z-index: 100;
       box-shadow: 2px 2px 20px rgba(37, 39, 41, 0.22);
+
+
+      p {
+        font-size: 18px;
+        color: $mediumBlue;
+      }
     }
   }
 

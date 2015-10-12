@@ -6422,6 +6422,9 @@ main .more-shoov {
     bottom: -150px;
     z-index: 100;
     box-shadow: 2px 2px 20px rgba(37, 39, 41, 0.22); }
+    main .more-shoov .container p {
+      font-size: 18px;
+      color: #194D7D; }
 
 main .clients {
   background: #f5f5f5; }
