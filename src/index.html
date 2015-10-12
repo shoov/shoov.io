@@ -14,7 +14,29 @@ title: Home
     <div class="sections-wrapper">
         <section class="section testimonials">
             <div class="container">
-                <h2 class="title text-center">What are people saying about Velocity?</h2>
+                <form id="contact-form" class="contact-form" method="post" action="" novalidate="novalidate">
+                    <div class="row text-center">
+                        <div class="contact-form-inner col-md-8 col-sm-12 col-xs-12 col-md-offset-2 col-sm-offset-0 xs-offset-0">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-12 form-group">
+                                    <label class="sr-only" for="cname">Your name</label>
+                                    <input type="text" class="form-control" id="cname" name="name" placeholder="Your name" minlength="2" required="" aria-required="true">
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-12 form-group">
+                                    <label class="sr-only" for="cemail">Email address</label>
+                                    <input type="email" class="form-control" id="cemail" name="email" placeholder="Your email address" required="" aria-required="true">
+                                </div>
+                                <div class="col-md-12 col-sm-12 col-xs-12 form-group">
+                                    <label class="sr-only" for="cmessage">Your message</label>
+                                    <textarea class="form-control" id="cmessage" name="message" placeholder="Enter your message" rows="12" required="" aria-required="true"></textarea>
+                                </div>
+                                <div class="col-md-12 col-sm-12 col-xs-12 form-group">
+                                    <button type="submit" class="btn btn-block btn-cta btn-cta-primary">Send Message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
             </div>
         </section>
         <section class="section press">

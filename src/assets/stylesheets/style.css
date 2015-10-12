@@ -6351,6 +6351,9 @@ main:not('.home-page') {
 
 main .promo.section {
   background: #253340; }
+  @media (min-width: 480px) {
+    main .promo.section {
+      height: auto; } }
   main .promo.section .gizra-logo {
     display: inline-block;
     margin-left: 10px;
@@ -6364,9 +6367,6 @@ main .promo.section {
     display: inline-block;
     border-radius: 5px;
     box-shadow: 2px 2px 20px #252729; }
-    @media (min-width: 480px) {
-      main .promo.section .intro {
-        background: red; } }
     main .promo.section .intro strong {
       font-size: 20px;
       width: 100%;

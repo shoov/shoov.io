@@ -20,13 +20,16 @@ main {
   .promo.section {
     background: #253340;
 
+    @include from-mobile {
+      height: auto;
+    }
+
     .gizra-logo {
       display: inline-block;
       margin-left: 10px;
       font-size: 48px;
       letter-spacing: 0.015em;
     }
-
 
     .intro {
       max-width: 800px;
@@ -36,10 +39,6 @@ main {
       display: inline-block;
       border-radius: 5px;
       box-shadow: 2px 2px 20px #252729;
-
-      @include mobile-to-all {
-        background: red;
-      }
 
       strong {
         font-size: 20px;

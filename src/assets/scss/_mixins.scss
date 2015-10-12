@@ -96,7 +96,7 @@ $gizra-color: #e27058;
 }
 
 // All devices.
-@mixin mobile-to_all {
+@mixin from-mobile {
   @media (min-width: $screen-is-min)  {
     @content;
   }
