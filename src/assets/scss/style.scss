@@ -81,6 +81,10 @@ main {
         color: $gray;
         font-size: 18px;
         border-radius: 5px;
+
+         &.no-margin {
+           margin: 0px;
+         }
       }
 
       .light-box {
@@ -116,14 +120,15 @@ main {
         font-weight: normal;
         padding: 10px;
         background: $dark-blue;
-        margin-top: 25px;
-        margin: 25px auto 0px auto;
+        border-color: rgba(255, 255, 255, 0.36);
+        color: rgba(255, 255, 255, 0.75);
+        margin: 35px auto 0px auto;
         display: inline-block;
         width: auto;
 
         &:hover, &:focus {
           color: white;
-          background: $turquoise;
+          background: $dark-blue;
         }
       }
 

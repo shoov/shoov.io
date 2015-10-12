@@ -6399,6 +6399,8 @@ main .promo.section {
       color: #999999;
       font-size: 18px;
       border-radius: 5px; }
+      main .promo.section .container p.no-margin {
+        margin: 0px; }
     main .promo.section .container .light-box {
       background-color: rgba(123, 135, 146, 0.12); }
     main .promo.section .container .intro {
@@ -6424,13 +6426,14 @@ main .promo.section {
       font-weight: normal;
       padding: 10px;
       background: #253340;
-      margin-top: 25px;
-      margin: 25px auto 0px auto;
+      border-color: rgba(255, 255, 255, 0.36);
+      color: rgba(255, 255, 255, 0.75);
+      margin: 35px auto 0px auto;
       display: inline-block;
       width: auto; }
       main .promo.section .container .toturial:hover, main .promo.section .container .toturial:focus {
         color: white;
-        background: #28A5A8; }
+        background: #253340; }
     main .promo.section .container .contact-us-title {
       margin-top: 25px;
       font-size: 21px;
