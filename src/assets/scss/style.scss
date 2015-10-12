@@ -43,7 +43,7 @@ main {
   .promo.section {
     padding-top: 120px;
     padding-bottom: 100px;
-    background: #253340;
+    background: $darkBlue;
     margin-bottom: 0px;
 
     @include from-mobile {
@@ -60,10 +60,10 @@ main {
     .container {
       max-width: 800px;
 
-      .light-box, .intro {
+       p {
         max-width: 100%;
         margin-top: 25px;
-        margin-bottom: 25px;
+        margin-bottom: 0px;
         padding: 20px 30px 20px 30px;
         display: inline-block;
         color: $gray;
@@ -73,23 +73,21 @@ main {
 
       .light-box {
         background-color: rgba(123, 135, 146, 0.12);
-
       }
 
       .intro {
+        color: $turquoise;
         border: 1px solid $turquoise;
         box-shadow: 2px 2px 20px #252729;
-
-        .first-liner {
-          font-weight: bold;
-          font-size: 20px;
-          width: 100%;
-          display: inline-block;
-        }
+        font-weight: bold;
+        text-transform: capitalize;
+        font-size: 20px;
+        width: 100%;
+        display: inline-block;
       }
 
       .video {
-        margin: 0 auto;
+        margin: 25px auto 0px auto;
         padding: 15px;
         background-color: rgba(123, 135, 146, 0.12);
         border-radius: 4px;

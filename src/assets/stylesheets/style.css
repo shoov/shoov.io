@@ -6382,10 +6382,10 @@ main .promo.section {
     letter-spacing: 0.015em; }
   main .promo.section .container {
     max-width: 800px; }
-    main .promo.section .container .light-box, main .promo.section .container .intro {
+    main .promo.section .container p {
       max-width: 100%;
       margin-top: 25px;
-      margin-bottom: 25px;
+      margin-bottom: 0px;
       padding: 20px 30px 20px 30px;
       display: inline-block;
       color: #999999;
@@ -6394,15 +6394,16 @@ main .promo.section {
     main .promo.section .container .light-box {
       background-color: rgba(123, 135, 146, 0.12); }
     main .promo.section .container .intro {
+      color: #28A5A8;
       border: 1px solid #28A5A8;
-      box-shadow: 2px 2px 20px #252729; }
-      main .promo.section .container .intro .first-liner {
-        font-weight: bold;
-        font-size: 20px;
-        width: 100%;
-        display: inline-block; }
+      box-shadow: 2px 2px 20px #252729;
+      font-weight: bold;
+      text-transform: capitalize;
+      font-size: 20px;
+      width: 100%;
+      display: inline-block; }
     main .promo.section .container .video {
-      margin: 0 auto;
+      margin: 25px auto 0px auto;
       padding: 15px;
       background-color: rgba(123, 135, 146, 0.12);
       border-radius: 4px; }
