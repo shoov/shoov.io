@@ -6200,3 +6200,11 @@ button.close {
 .css .o + .nt,
 .css .nt + .nt {
   color: #999; }
+
+#header {
+  background: #253340; }
+
+main {
+  margin-top: 95px; }
+  main .bg-slider-wrapper {
+    background: #253340; }
