@@ -9,6 +9,9 @@ url: localhost:4000
 source: src
 destination: serve
 
+# Add a block on page header element that displays the current breakpoint type.
+debug_responsive: true
+
 # Same as the title etc for your site but can instead be
 # called by using 'site.author.name' and so on
 author:
