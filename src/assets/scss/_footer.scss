@@ -10,6 +10,11 @@
     span {
       margin-right: 10px;
 
+      @include phone-to-mobile-only {
+        display: block;
+        margin-top: 10px;
+      }
+
       a {
         color: $gray;
       }
@@ -18,7 +23,6 @@
         color: $turquoise;
         margin-right: 5px;
       }
-
     }
   }
 }

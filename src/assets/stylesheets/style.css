@@ -6335,6 +6335,7 @@ button.close {
 
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */
+/* Up to medium desktop */
 /* Small Devices, Tablets */
 /* Extra Small Devices, Phones */
 /* Extra Small Devices, Phones */
@@ -6342,7 +6343,7 @@ button.close {
 #header {
   background: #253340;
   color: #fff; }
-  @media (min-width: 480px) and (max-width: 767px) {
+  @media (max-width: 767px) {
     #header .container {
       width: 100%;
       padding-bottom: 25px;
@@ -6358,7 +6359,7 @@ button.close {
     background-color: #28A5A8; }
   #header.scrolled {
     background: white; }
-  @media (min-width: 480px) and (max-width: 767px) {
+  @media (max-width: 767px) {
     #header .navbar-collapse {
       position: relative;
       left: auto;
@@ -6375,6 +6376,10 @@ button.close {
     text-align: center; }
     #footer .company-details span {
       margin-right: 10px; }
+      @media (max-width: 767px) {
+        #footer .company-details span {
+          display: block;
+          margin-top: 10px; } }
       #footer .company-details span a {
         color: #999999; }
       #footer .company-details span i {
@@ -6398,6 +6403,9 @@ button.close {
   padding-bottom: 100px;
   margin-bottom: 0px;
   background: #253340; }
+  @media (max-width: 992px) {
+    .home-page .teaser {
+      padding-top: 1px; } }
   .home-page .teaser p {
     padding: 0px; }
   .home-page .teaser .title-main,
@@ -6452,12 +6460,12 @@ button.close {
       font-size: 16px;
       font-weight: normal;
       padding: 10px;
-      background: #253340;
-      border-color: rgba(255, 255, 255, 0.36);
+      border: 1px solid rgba(255, 255, 255, 0.36);
+      border-radius: 8px;
+      text-decoration: none;
       color: rgba(255, 255, 255, 0.75);
       margin: 35px auto 0px auto;
-      display: inline-block;
-      width: auto; }
+      display: inline-block; }
       .home-page .teaser .container .tutorial:hover, .home-page .teaser .container .tutorial:focus {
         color: white;
         background: #253340; }
@@ -6487,6 +6495,13 @@ button.close {
     bottom: -124px;
     z-index: 100;
     box-shadow: 2px 2px 20px 0px rgba(37, 39, 41, 0.22); }
+    @media (max-width: 767px) {
+      .home-page .more-shoov .container {
+        border-radius: 0px; } }
+    @media (max-width: 479px) {
+      .home-page .more-shoov .container {
+        margin-left: 15px;
+        margin-right: 15px; } }
     .home-page .more-shoov .container p {
       font-size: 18px;
       color: #194D7D; }

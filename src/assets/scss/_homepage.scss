@@ -16,6 +16,10 @@
     margin-bottom: 0px;
     background: $dark-blue;
 
+    @include phone-to-medium-desktop-only {
+      padding-top: 1px;
+    }
+
     p {
       padding: 0px;
     }
@@ -95,12 +99,12 @@
         font-size: 16px;
         font-weight: normal;
         padding: 10px;
-        background: $dark-blue;
-        border-color: rgba(255, 255, 255, 0.36);
+        border: 1px solid rgba(255, 255, 255, 0.36);
+        border-radius: 8px;
+        text-decoration: none;
         color: rgba(255, 255, 255, 0.75);
         margin: 35px auto 0px auto;
         display: inline-block;
-        width: auto;
 
         &:hover, &:focus {
           color: white;
@@ -139,6 +143,15 @@
       bottom: -124px;
       z-index: 100;
       @include box-shadow(2px , 2px , 20px ,0px , rgba(37, 39, 41, 0.22));
+
+      @include phone-to-mobile-only {
+        border-radius: 0px;
+      }
+
+      @include phone-only {
+        margin-left: 15px;
+        margin-right: 15px;
+      }
 
       p {
         font-size: 18px;

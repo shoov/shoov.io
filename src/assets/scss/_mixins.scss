@@ -47,6 +47,13 @@ $dark-blue: #253340;
   }
 }
 
+/* Up to medium desktop */
+@mixin phone-to-medium-desktop-only {
+  @media (max-width: $screen-md-min) {
+    @content;
+  }
+}
+
 // Medium to large desktop.
 @mixin medium-to-large-desktop-only {
   @media (min-width: $screen-md-min)  {
@@ -75,7 +82,7 @@ $dark-blue: #253340;
   }
 }
 
-// Not for mobile width only.
+// Exclude mobile width only.
 @mixin exclude-mobile-only {
   @media (min-width: $screen-is-min)  {
     @content;

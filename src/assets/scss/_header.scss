@@ -3,7 +3,7 @@
   color: #fff;
 
   .container {
-    @include mobile-only {
+    @include phone-to-mobile-only {
       width: 100%;
       padding-bottom: 25px;
       padding-left: 0px;
@@ -33,7 +33,7 @@
 
   .navbar-collapse {
 
-    @include mobile-only {
+    @include phone-to-mobile-only {
       position: relative;
       left: auto;
       top: auto;
