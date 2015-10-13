@@ -6377,8 +6377,6 @@ button.close {
   font-size: 17.5px;
   border-radius: 5px;
   background-clip: padding-box; }
-  .home-page p.no-margin {
-    margin: 0px; }
 
 .home-page .teaser {
   padding-top: 120px;
@@ -6403,20 +6401,22 @@ button.close {
     font-size: 48px;
     letter-spacing: 0.015em; }
   .home-page .teaser .intro {
-    margin: 0 auto;
+    margin: 15px auto 0px auto;
     max-width: 900px;
     padding: 10px;
-    color: #28A5A8;
-    border: 1px solid #28A5A8; }
+    color: #28A5A8; }
     .home-page .teaser .intro h4 {
       font-size: 23px;
       font-weight: bold;
       letter-spacing: 1px; }
+    .home-page .teaser .intro p {
+      margin: 0px; }
   .home-page .teaser .container {
     max-width: 800px; }
     .home-page .teaser .container .light-box {
       background-color: rgba(123, 135, 146, 0.12); }
     .home-page .teaser .container .video {
+      max-width: 500px;
       margin: 25px auto 0px auto;
       padding: 15px;
       background-color: rgba(123, 135, 146, 0.12);

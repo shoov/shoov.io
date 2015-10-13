@@ -8,9 +8,6 @@
     font-size: 17.5px;
     @include border-radius(5px);
 
-    &.no-margin {
-      margin: 0px;
-    }
   }
 
   .teaser {
@@ -44,11 +41,11 @@
     }
 
     .intro {
-      margin: 0 auto;
+      margin: 15px auto 0px auto;
       max-width: 900px;
       padding: 10px;
       color: $turquoise;
-      border: 1px solid $turquoise;
+//      border: 1px solid $turquoise;
 //      @include border-radius(4px);
 //      @include box-shadow(2px , 2px , 20px ,0px , #252729);
 
@@ -56,6 +53,10 @@
         font-size: 23px;
         font-weight: bold;
         letter-spacing: 1px;
+      }
+
+      p {
+        margin: 0px;
       }
     }
 
@@ -67,6 +68,7 @@
       }
 
       .video {
+        max-width: 500px;
         margin: 25px auto 0px auto;
         padding: 15px;
         background-color: rgba(123, 135, 146, 0.12);
