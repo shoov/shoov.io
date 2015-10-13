@@ -6475,7 +6475,7 @@ button.close {
       margin-bottom: -10px;
       display: inline-block;
       padding: 10px;
-      background-color: #28A5A8;
+      background-color: #e27058;
       color: white; }
       .home-page .teaser .container .contact-us-title .gizra-logo {
         color: white; }
@@ -6514,7 +6514,7 @@ button.close {
 
 .home-page #clients {
   background: #f5f5f5;
-  padding-top: 120px;
+  padding-top: 180px;
   position: relative; }
   .home-page #clients .container {
     max-width: 800px; }

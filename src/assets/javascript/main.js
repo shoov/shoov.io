@@ -1,11 +1,46 @@
 $(document).ready(function() {
 
-    /* ======= Twitter Bootstrap hover dropdown ======= */   
-    /* Ref: https://github.com/CWSpear/bootstrap-hover-dropdown */ 
-    /* apply dropdownHover to all elements with the data-hover="dropdown" attribute */
-    
-    $('[data-hover="dropdown"]').dropdownHover();
-    
+    //
+    var snedShoovTrailRequest = function(){
+
+      // The form element.
+      var $form = $('#shoov-trail-form');
+
+      // The form submit element.
+      var $submitButton = $form.find('button[type="submit"]');
+
+        $submitButton.bind('click', function(){
+          event.preventDefault();
+
+          // The input fields
+          var $fields = $form.find('input');
+
+          var website = $($fields[0]).val().trim();
+          var email = $($fields[1]).val().trim();
+
+           if (website == '' || email == '') {
+             console.log('empty')
+               return;
+           }
+;
+          console.log(website + ' ' + email);
+
+            return;
+
+
+            $.ajax({
+                url: "//formspree.io/yaron@gizra.com",
+                method: "POST",
+                data: {message: "hello!"},
+                dataType: "json",
+                success: function (response) {
+                    console.log(response);
+                }
+            });
+        })
+
+    }
+
     /* ======= Fixed header when scrolled ======= */    
     $(window).on('scroll load', function() {
          
@@ -17,6 +52,10 @@ $(document).ready(function() {
              
          }
     });
+
+    //@todo add popup message when detail's sent.
+    snedShoovTrailRequest();
+
 
     /* ======= jQuery Placeholder ======= */
     /* Ref: https://github.com/mathiasbynens/jquery-placeholder */
