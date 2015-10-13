@@ -2,6 +2,15 @@
   background: $dark-blue;
   color: #fff;
 
+  .container {
+    @include mobile-only {
+      width: 100%;
+      padding-bottom: 25px;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  }
+
   .text {
     font-family: 'Audiowide', arial, sans-serif;
   }
@@ -20,5 +29,16 @@
 
   &.scrolled {
     background: white;
+  }
+
+  .navbar-collapse {
+
+    @include mobile-only {
+      position: relative;
+      left: auto;
+      top: auto;
+      padding-bottom: 10px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
   }
 }

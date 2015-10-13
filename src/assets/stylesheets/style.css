@@ -6342,6 +6342,12 @@ button.close {
 #header {
   background: #253340;
   color: #fff; }
+  @media (min-width: 480px) and (max-width: 767px) {
+    #header .container {
+      width: 100%;
+      padding-bottom: 25px;
+      padding-left: 0px;
+      padding-right: 0px; } }
   #header .text {
     font-family: 'Audiowide', arial, sans-serif; }
   #header .main-nav .nav .nav-item.nav-item-cta a.btn-cta-secondary {
@@ -6352,6 +6358,13 @@ button.close {
     background-color: #28A5A8; }
   #header.scrolled {
     background: white; }
+  @media (min-width: 480px) and (max-width: 767px) {
+    #header .navbar-collapse {
+      position: relative;
+      left: auto;
+      top: auto;
+      padding-bottom: 10px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2); } }
 
 #footer {
   color: #999999;
@@ -6395,7 +6408,6 @@ button.close {
   .home-page .teaser .title-main {
     font-size: 96px;
     font-weight: 400;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
     font-family: 'Audiowide', arial, sans-serif; }
   .home-page .teaser .title-sub {
     font-size: 34px;
@@ -6404,7 +6416,7 @@ button.close {
   @media (min-width: 480px) {
     .home-page .teaser {
       height: auto; } }
-  .home-page .teaser h1 .gizra-logo {
+  .home-page .teaser h2 .gizra-logo {
     display: inline-block;
     font-size: 34px;
     letter-spacing: 0.015em; }
