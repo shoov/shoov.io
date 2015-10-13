@@ -6339,153 +6339,6 @@ button.close {
 /* Extra Small Devices, Phones */
 /* Extra Small Devices, Phones */
 /* Custom, iPhone Retina */
-.gizra-logo {
-  font-family: Abril Fatface;
-  color: #e27058; }
-
-.turquoise {
-  color: #28A5A8; }
-
-a {
-  color: #28A5A8; }
-  a:hover, a:focus {
-    color: #2886a2; }
-
-.btn-primary {
-  color: white;
-  background-color: #28A5A8;
-  border-color: #28A5A8; }
-  .btn-primary:hover {
-    background-color: #288A8D;
-    border-color: #288A8D; }
-
-hr {
-  background: whitesmoke;
-  height: 1px;
-  width: 90%;
-  display: block;
-  border-bottom: 1px solid #e2e2e2; }
-
-.simple-title {
-  font-size: 36px;
-  font-weight: 300;
-  margin-top: 0;
-  margin-bottom: 60px; }
-
-main:not('.home-page') {
-  margin-top: 95px; }
-
-main .promo.section {
-  padding-top: 120px;
-  padding-bottom: 100px;
-  margin-bottom: 0px;
-  background: #253340; }
-  @media (min-width: 480px) {
-    main .promo.section {
-      height: auto; } }
-  main .promo.section h1 .gizra-logo {
-    display: inline-block;
-    margin-left: 10px;
-    font-size: 48px;
-    letter-spacing: 0.015em; }
-  main .promo.section .container {
-    max-width: 800px; }
-    main .promo.section .container p {
-      max-width: 100%;
-      margin-top: 25px;
-      margin-bottom: 0px;
-      padding: 15px;
-      display: inline-block;
-      color: #999999;
-      font-size: 18px;
-      border-radius: 5px; }
-      main .promo.section .container p.no-margin {
-        margin: 0px; }
-    main .promo.section .container .light-box {
-      background-color: rgba(123, 135, 146, 0.12); }
-    main .promo.section .container .intro {
-      color: #28A5A8;
-      border: 1px solid #28A5A8;
-      box-shadow: 2px 2px 20px #252729;
-      font-weight: bold;
-      text-transform: capitalize;
-      font-size: 20px;
-      width: 100%;
-      display: inline-block; }
-    main .promo.section .container .video {
-      margin: 25px auto 0px auto;
-      padding: 15px;
-      background-color: rgba(123, 135, 146, 0.12);
-      background: #f5f5f5;
-      border-radius: 4px;
-      box-shadow: 4px 4px 30px #252729; }
-      main .promo.section .container .video img {
-        border: 1px solid #A2A2A2; }
-    main .promo.section .container .toturial {
-      font-size: 16px;
-      font-weight: normal;
-      padding: 10px;
-      background: #253340;
-      border-color: rgba(255, 255, 255, 0.36);
-      color: rgba(255, 255, 255, 0.75);
-      margin: 35px auto 0px auto;
-      display: inline-block;
-      width: auto; }
-      main .promo.section .container .toturial:hover, main .promo.section .container .toturial:focus {
-        color: white;
-        background: #253340; }
-    main .promo.section .container .contact-us-title {
-      margin-top: 25px;
-      font-size: 21px;
-      padding-bottom: 0px; }
-
-main .more-shoov {
-  position: relative; }
-  main .more-shoov .container {
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-    background-color: white;
-    border: 1px solid rgba(0, 0, 0, 0.22);
-    border-radius: 5px;
-    max-width: 770px;
-    bottom: -78px;
-    z-index: 100;
-    box-shadow: 2px 2px 20px rgba(37, 39, 41, 0.22); }
-    main .more-shoov .container p {
-      font-size: 18px;
-      color: #194D7D; }
-    main .more-shoov .container #shoov-trail-form {
-      padding: 20px; }
-      main .more-shoov .container #shoov-trail-form .form-group {
-        padding: 0px; }
-        main .more-shoov .container #shoov-trail-form .form-group:last-child {
-          margin-bottom: 0px; }
-
-main #clients {
-  background: #f5f5f5;
-  padding-bottom: 60px;
-  padding-top: 120px;
-  text-align: center;
-  position: relative; }
-  main #clients .title {
-    font-family: 'Droid Serif', serif;
-    margin-top: 25px; }
-  main #clients .container {
-    max-width: 800px; }
-    main #clients .container .logo {
-      float: left;
-      height: 120px;
-      line-height: 120px;
-      text-align: center; }
-      main #clients .container .logo img {
-        vertical-align: middle;
-        display: inline-block; }
-      @media (min-width: 479px) {
-        main #clients .container .logo {
-          width: 20%; } }
-
 #header {
   background: #253340;
   color: #fff; }
@@ -6497,3 +6350,164 @@ main #clients {
     background-color: #28A5A8; }
   #header.scrolled {
     background: white; }
+
+#footer {
+  color: #999999;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #253340; }
+  #footer .company-details {
+    text-align: center; }
+    #footer .company-details span {
+      margin-right: 10px; }
+      #footer .company-details span a {
+        color: #999999; }
+      #footer .company-details span i {
+        color: #28A5A8;
+        margin-right: 5px; }
+
+#topcontrol {
+  bottom: 11px !important; }
+
+body {
+  background: #253340; }
+  body .gizra-logo {
+    font-family: Abril Fatface;
+    color: #e27058; }
+    body .gizra-logo:hover, body .gizra-logo:focus {
+      text-decoration: none;
+      color: #e25d48; }
+  body .turquoise {
+    color: #28A5A8; }
+  body a {
+    color: #28A5A8; }
+    body a:hover, body a:focus {
+      color: #2886a2; }
+  body .btn-primary {
+    color: white;
+    background-color: #28A5A8;
+    border-color: #28A5A8; }
+    body .btn-primary:hover {
+      background-color: #288A8D;
+      border-color: #288A8D; }
+  body hr {
+    background: whitesmoke;
+    height: 1px;
+    width: 90%;
+    display: block;
+    border-bottom: 1px solid #e2e2e2; }
+  body .simple-title {
+    font-size: 36px;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 60px; }
+  body main:not('.home-page') {
+    margin-top: 95px; }
+  body main .promo.section {
+    padding-top: 120px;
+    padding-bottom: 100px;
+    margin-bottom: 0px;
+    background: #253340; }
+    @media (min-width: 480px) {
+      body main .promo.section {
+        height: auto; } }
+    body main .promo.section h1 .gizra-logo {
+      display: inline-block;
+      margin-left: 10px;
+      font-size: 48px;
+      letter-spacing: 0.015em; }
+    body main .promo.section .container {
+      max-width: 800px; }
+      body main .promo.section .container p {
+        max-width: 100%;
+        margin-top: 25px;
+        margin-bottom: 0px;
+        padding: 15px;
+        display: inline-block;
+        color: #999999;
+        font-size: 18px;
+        border-radius: 5px; }
+        body main .promo.section .container p.no-margin {
+          margin: 0px; }
+      body main .promo.section .container .light-box {
+        background-color: rgba(123, 135, 146, 0.12); }
+      body main .promo.section .container .intro {
+        color: #28A5A8;
+        border: 1px solid #28A5A8;
+        box-shadow: 2px 2px 20px #252729;
+        font-weight: bold;
+        text-transform: capitalize;
+        font-size: 20px;
+        width: 100%;
+        display: inline-block; }
+      body main .promo.section .container .video {
+        margin: 25px auto 0px auto;
+        padding: 15px;
+        background-color: rgba(123, 135, 146, 0.12);
+        background: #f5f5f5;
+        border-radius: 4px;
+        box-shadow: 4px 4px 30px #252729; }
+        body main .promo.section .container .video img {
+          border: 1px solid #A2A2A2; }
+      body main .promo.section .container .toturial {
+        font-size: 16px;
+        font-weight: normal;
+        padding: 10px;
+        background: #253340;
+        border-color: rgba(255, 255, 255, 0.36);
+        color: rgba(255, 255, 255, 0.75);
+        margin: 35px auto 0px auto;
+        display: inline-block;
+        width: auto; }
+        body main .promo.section .container .toturial:hover, body main .promo.section .container .toturial:focus {
+          color: white;
+          background: #253340; }
+      body main .promo.section .container .contact-us-title {
+        margin-top: 45px;
+        font-size: 21px;
+        padding-bottom: 0px; }
+  body main .more-shoov {
+    position: relative; }
+    body main .more-shoov .container {
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto;
+      background-color: white;
+      border: 1px solid rgba(0, 0, 0, 0.22);
+      border-radius: 5px;
+      max-width: 770px;
+      bottom: -78px;
+      z-index: 100;
+      box-shadow: 2px 2px 20px rgba(37, 39, 41, 0.22); }
+      body main .more-shoov .container p {
+        font-size: 18px;
+        color: #194D7D; }
+      body main .more-shoov .container #shoov-trail-form {
+        padding: 20px; }
+        body main .more-shoov .container #shoov-trail-form .form-group {
+          padding: 0px; }
+          body main .more-shoov .container #shoov-trail-form .form-group:last-child {
+            margin-bottom: 0px; }
+  body main #clients {
+    background: #f5f5f5;
+    padding-bottom: 60px;
+    padding-top: 120px;
+    text-align: center;
+    position: relative; }
+    body main #clients .title {
+      font-family: 'Droid Serif', serif;
+      margin-top: 25px; }
+    body main #clients .container {
+      max-width: 800px; }
+      body main #clients .container .logo {
+        float: left;
+        height: 120px;
+        line-height: 120px;
+        text-align: center; }
+        body main #clients .container .logo img {
+          vertical-align: middle;
+          display: inline-block; }
+        @media (min-width: 479px) {
+          body main #clients .container .logo {
+            width: 25%; } }

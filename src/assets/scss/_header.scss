@@ -1,0 +1,20 @@
+#header {
+  background: $dark-blue;
+  color: #fff;
+
+  .main-nav .nav .nav-item.nav-item-cta a.btn-cta-secondary {
+    font-weight: normal;
+  }
+
+  .dropdown-toggle.nav-item.active {
+    font-weight: bold;
+  }
+
+  .dropdown-menu > .active > a {
+    background-color: $turquoise;
+  }
+
+  &.scrolled {
+    background: white;
+  }
+}

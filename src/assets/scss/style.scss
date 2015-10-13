@@ -1,229 +1,221 @@
 @import "../stylesheets/theme-style.css";
 @import "_syntax";
 @import "_mixins";
+@import "_header";
+@import "_footer";
 
-.gizra-logo {
-  font-family: Abril Fatface;
-  color: $gizra;
-}
 
-.turquoise {
-  color: $turquoise;
-}
+body {
+  background: $dark-blue;
 
-a {
-  color: $turquoise;
+  .gizra-logo {
+    font-family: Abril Fatface;
+    color: $gizra;
 
-  &:hover, &:focus {
-    color: $light-turquoise;
-  }
-}
-
-.btn-primary {
-  color: white;
-  background-color: $turquoise;
-  border-color: $turquoise;
-
-  &:hover {
-    background-color: $dark-turquoise;
-    border-color: $dark-turquoise;
-  }
-}
-
-hr {
-  background: rgb(245, 245, 245);
-  height: 1px;
-  width: 90%;
-  display: block;
-  border-bottom: 1px solid rgb(226, 226, 226);
-}
-
-.simple-title {
-  font-size: 36px;
-  font-weight: 300;
-  margin-top: 0;
-  margin-bottom: 60px;
-}
-
-main {
-
-  &:not('.home-page') {
-    margin-top: 95px;
+    &:hover, &:focus {
+      text-decoration: none;
+      color: $gizra-dark;
+    }
   }
 
-  .promo.section {
-    padding-top: 120px;
-    padding-bottom: 100px;
-    margin-bottom: 0px;
-    background: $dark-blue;
+  .turquoise {
+    color: $turquoise;
+  }
 
+  a {
+    color: $turquoise;
 
-    @include from-mobile {
-      height: auto;
+    &:hover, &:focus {
+      color: $light-turquoise;
+    }
+  }
+
+  .btn-primary {
+    color: white;
+    background-color: $turquoise;
+    border-color: $turquoise;
+
+    &:hover {
+      background-color: $dark-turquoise;
+      border-color: $dark-turquoise;
+    }
+  }
+
+  hr {
+    background: rgb(245, 245, 245);
+    height: 1px;
+    width: 90%;
+    display: block;
+    border-bottom: 1px solid rgb(226, 226, 226);
+  }
+
+  .simple-title {
+    font-size: 36px;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 60px;
+  }
+
+  main {
+
+    &:not('.home-page') {
+      margin-top: 95px;
     }
 
-    h1 .gizra-logo {
-      display: inline-block;
-      margin-left: 10px;
-      font-size: 48px;
-      letter-spacing: 0.015em;
-    }
+    .promo.section {
+      padding-top: 120px;
+      padding-bottom: 100px;
+      margin-bottom: 0px;
+      background: $dark-blue;
 
-    .container {
-      max-width: 800px;
 
-       p {
-        max-width: 100%;
-        margin-top: 25px;
-        margin-bottom: 0px;
-        padding: 15px;
+      @include from-mobile {
+        height: auto;
+      }
+
+      h1 .gizra-logo {
         display: inline-block;
-        color: $gray;
-        font-size: 18px;
-        border-radius: 5px;
-
-         &.no-margin {
-           margin: 0px;
-         }
+        margin-left: 10px;
+        font-size: 48px;
+        letter-spacing: 0.015em;
       }
 
-      .light-box {
-        background-color: rgba(123, 135, 146, 0.12);
-      }
+      .container {
+        max-width: 800px;
 
-      .intro {
-        color: $turquoise;
-        border: 1px solid $turquoise;
-        box-shadow: 2px 2px 20px #252729;
-        font-weight: bold;
-        text-transform: capitalize;
-        font-size: 20px;
-        width: 100%;
-        display: inline-block;
-      }
+         p {
+          max-width: 100%;
+          margin-top: 25px;
+          margin-bottom: 0px;
+          padding: 15px;
+          display: inline-block;
+          color: $gray;
+          font-size: 18px;
+          border-radius: 5px;
 
-      .video {
-        margin: 25px auto 0px auto;
-        padding: 15px;
-        background-color: rgba(123, 135, 146, 0.12);
-        background: $light-gray;
-        border-radius: 4px;
-        box-shadow: 4px 4px 30px #252729;
-
-        img {
-          border: 1px solid #A2A2A2;
+           &.no-margin {
+             margin: 0px;
+           }
         }
-      }
 
-      .toturial {
-        font-size: 16px;
-        font-weight: normal;
-        padding: 10px;
-        background: $dark-blue;
-        border-color: rgba(255, 255, 255, 0.36);
-        color: rgba(255, 255, 255, 0.75);
-        margin: 35px auto 0px auto;
-        display: inline-block;
-        width: auto;
+        .light-box {
+          background-color: rgba(123, 135, 146, 0.12);
+        }
 
-        &:hover, &:focus {
-          color: white;
+        .intro {
+          color: $turquoise;
+          border: 1px solid $turquoise;
+          box-shadow: 2px 2px 20px #252729;
+          font-weight: bold;
+          text-transform: capitalize;
+          font-size: 20px;
+          width: 100%;
+          display: inline-block;
+        }
+
+        .video {
+          margin: 25px auto 0px auto;
+          padding: 15px;
+          background-color: rgba(123, 135, 146, 0.12);
+          background: $light-gray;
+          border-radius: 4px;
+          box-shadow: 4px 4px 30px #252729;
+
+          img {
+            border: 1px solid #A2A2A2;
+          }
+        }
+
+        .toturial {
+          font-size: 16px;
+          font-weight: normal;
+          padding: 10px;
           background: $dark-blue;
+          border-color: rgba(255, 255, 255, 0.36);
+          color: rgba(255, 255, 255, 0.75);
+          margin: 35px auto 0px auto;
+          display: inline-block;
+          width: auto;
+
+          &:hover, &:focus {
+            color: white;
+            background: $dark-blue;
+          }
+        }
+
+        .contact-us-title {
+          margin-top: 45px;
+          font-size: 21px;
+          padding-bottom: 0px;
         }
       }
+    }
 
-      .contact-us-title {
-        margin-top: 25px;
-        font-size: 21px;
-        padding-bottom: 0px;
+    .more-shoov {
+      position: relative;
+
+      .container {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background-color: white;
+        border: 1px solid rgba(0, 0, 0, 0.22);
+        border-radius: 5px;
+        max-width: 770px;
+        bottom: -78px;
+        z-index: 100;
+        box-shadow: 2px 2px 20px rgba(37, 39, 41, 0.22);
+
+        p {
+          font-size: 18px;
+          color: $medium-blue;
+        }
+
+        #shoov-trail-form {
+          padding: 20px;
+          .form-group {
+            padding: 0px;
+            &:last-child {
+              margin-bottom: 0px;
+            }
+          }
+        }
       }
     }
-  }
 
-  .more-shoov {
-    position: relative;
+    #clients {
+      background: #f5f5f5;
+      padding-bottom: 60px;
+      padding-top: 120px;
+      text-align: center;
+      position: relative;
 
-    .container {
-      position: absolute;
-      left: 0;
-      right: 0;
-      margin: auto;
-      background-color: white;
-      border: 1px solid rgba(0, 0, 0, 0.22);
-      border-radius: 5px;
-      max-width: 770px;
-      bottom: -78px;
-      z-index: 100;
-      box-shadow: 2px 2px 20px rgba(37, 39, 41, 0.22);
-
-      p {
-        font-size: 18px;
-        color: $medium-blue;
+      .title {
+        font-family: 'Droid Serif', serif;
+        margin-top: 25px;
       }
 
-      #shoov-trail-form {
-        padding: 20px;
-        .form-group {
-          padding: 0px;
-          &:last-child {
-            margin-bottom: 0px;
+      .container {
+        max-width: 800px;
+
+        .logo {
+          float: left;
+          height: 120px;
+          line-height:120px;
+          text-align:center;
+
+          img {
+            vertical-align: middle;
+            display: inline-block;
+          }
+
+          @media (min-width: $screen-xs-max) {
+            width: 25%;
           }
         }
       }
     }
   }
 
-  #clients {
-    background: #f5f5f5;
-    padding-bottom: 60px;
-    padding-top: 120px;
-    text-align: center;
-    position: relative;
-
-    .title {
-      font-family: 'Droid Serif', serif;
-      margin-top: 25px;
-    }
-
-    .container {
-      max-width: 800px;
-
-      .logo {
-        float: left;
-        height: 120px;
-        line-height:120px;
-        text-align:center;
-
-        img {
-          vertical-align: middle;
-          display: inline-block;
-        }
-
-        @media (min-width: $screen-xs-max) {
-          width: 20%;
-        }
-      }
-    }
-  }
-}
-
-#header {
-  background: $dark-blue;
-  color: #fff;
-
-  .main-nav .nav .nav-item.nav-item-cta a.btn-cta-secondary {
-    font-weight: normal;
-  }
-
-  .dropdown-toggle.nav-item.active {
-    font-weight: bold;
-  }
-
-  .dropdown-menu > .active > a {
-    background-color: $turquoise;
-  }
-
-  &.scrolled {
-    background: white;
-  }
 }
