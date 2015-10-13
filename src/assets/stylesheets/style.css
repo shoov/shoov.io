@@ -6370,7 +6370,7 @@ button.close {
   bottom: 11px !important; }
 
 body {
-  background: #253340; }
+  font-family: 'Fira Sans', arial, sans-serif; }
   body .gizra-logo {
     font-family: Abril Fatface;
     color: #e27058; }
@@ -6425,7 +6425,7 @@ body {
         padding: 15px;
         display: inline-block;
         color: #999999;
-        font-size: 18px;
+        font-size: 17.5px;
         border-radius: 5px; }
         body main .promo.section .container p.no-margin {
           margin: 0px; }

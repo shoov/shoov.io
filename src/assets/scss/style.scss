@@ -6,7 +6,7 @@
 
 
 body {
-  background: $dark-blue;
+  font-family: 'Fira Sans', arial, sans-serif;
 
   .gizra-logo {
     font-family: Abril Fatface;
@@ -90,7 +90,7 @@ body {
           padding: 15px;
           display: inline-block;
           color: $gray;
-          font-size: 18px;
+          font-size: 17.5px;
           border-radius: 5px;
 
            &.no-margin {
