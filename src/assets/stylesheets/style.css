@@ -6369,48 +6369,10 @@ button.close {
 #topcontrol {
   bottom: 11px !important; }
 
-body {
-  background: #f5f5f5;
-  font-family: 'Fira Sans', arial, sans-serif; }
-  body:not('.home-page') {
-    margin-top: 95px; }
-  body .gizra-logo {
-    font-family: Abril Fatface;
-    color: #e27058; }
-    body .gizra-logo:hover, body .gizra-logo:focus {
-      text-decoration: none;
-      color: #e25d48; }
-  body .turquoise {
-    color: #28A5A8; }
-  body a {
-    color: #28A5A8; }
-    body a:hover, body a:focus {
-      color: #2886a2; }
-  body .btn-primary {
-    color: white;
-    background-color: #28A5A8;
-    border-color: #28A5A8; }
-    body .btn-primary:hover {
-      background-color: #288A8D;
-      border-color: #288A8D; }
-  body hr {
-    background: whitesmoke;
-    height: 1px;
-    width: 90%;
-    display: block;
-    border-bottom: 1px solid #e2e2e2; }
-  body .title {
-    font-family: 'Droid Serif', serif;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    color: #565656; }
-
 .home-page p {
-  max-width: 100%;
   margin-top: 25px;
   margin-bottom: 0px;
   padding: 15px;
-  display: inline-block;
   color: #999999;
   font-size: 17.5px;
   border-radius: 5px;
@@ -6441,17 +6403,11 @@ body {
     font-size: 48px;
     letter-spacing: 0.015em; }
   .home-page .teaser .intro {
+    margin: 0 auto;
     max-width: 900px;
     padding: 10px;
     color: #28A5A8;
-    border: 1px solid #28A5A8;
-    border-radius: 4px;
-    background-clip: padding-box;
-    box-shadow: 2px 2px 20px 0px #252729;
-    font-weight: bold;
-    font-size: 20px;
-    width: 100%;
-    display: inline-block; }
+    border: 1px solid #28A5A8; }
     .home-page .teaser .intro h4 {
       font-size: 23px;
       font-weight: bold;
@@ -6556,3 +6512,39 @@ body {
           color: #5d80a1;
           text-decoration: none;
           display: block; }
+
+body {
+  background: #f5f5f5;
+  font-family: 'Fira Sans', arial, sans-serif; }
+  body:not('.home-page') {
+    margin-top: 95px; }
+  body .gizra-logo {
+    font-family: Abril Fatface;
+    color: #e27058; }
+    body .gizra-logo:hover, body .gizra-logo:focus {
+      text-decoration: none;
+      color: #e25d48; }
+  body .turquoise {
+    color: #28A5A8; }
+  body a {
+    color: #28A5A8; }
+    body a:hover, body a:focus {
+      color: #2886a2; }
+  body .btn-primary {
+    color: white;
+    background-color: #28A5A8;
+    border-color: #28A5A8; }
+    body .btn-primary:hover {
+      background-color: #288A8D;
+      border-color: #288A8D; }
+  body hr {
+    background: whitesmoke;
+    height: 1px;
+    width: 90%;
+    display: block;
+    border-bottom: 1px solid #e2e2e2; }
+  body .title {
+    font-family: 'Droid Serif', serif;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #565656; }
