@@ -2945,16 +2945,16 @@ select {
     position: relative;
   }
   .navbar-collapse {
-    /*border-top: none;*/
-    /*-webkit-box-shadow: none;*/
-    /*-moz-box-shadow: none;*/
-    /*box-shadow: none;*/
-    /*width: 100%;*/
-    /*left: 0;*/
-    /*top: 90px;*/
-    /*position: absolute;*/
-    /*background: #253340;*/
-    /*z-index: 45;*/
+    border-top: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    width: 100%;
+    left: 0;
+    top: 90px;
+    position: absolute;
+    background: #253340;
+    z-index: 45;
   }
   .navbar-collapse .nav {
     margin: 0;
