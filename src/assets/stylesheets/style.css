@@ -6456,7 +6456,7 @@ body {
         box-shadow: 4px 4px 30px #252729; }
         body main .promo.section .container .video img {
           border: 1px solid #A2A2A2; }
-      body main .promo.section .container .toturial {
+      body main .promo.section .container .tutorial {
         font-size: 16px;
         font-weight: normal;
         padding: 10px;
@@ -6466,7 +6466,7 @@ body {
         margin: 35px auto 0px auto;
         display: inline-block;
         width: auto; }
-        body main .promo.section .container .toturial:hover, body main .promo.section .container .toturial:focus {
+        body main .promo.section .container .tutorial:hover, body main .promo.section .container .tutorial:focus {
           color: white;
           background: #253340; }
       body main .promo.section .container .contact-us-title {
