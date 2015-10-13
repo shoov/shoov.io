@@ -29,6 +29,7 @@ $gizra-dark: #e25d48;
 $light-gray: #f5f5f5;
 $gray-medium: #565656;
 $gray: #999999;
+$light-blue: #5d80a1;
 $medium-blue: #194D7D;
 $dark-blue: #253340;
 
@@ -107,4 +108,20 @@ $dark-blue: #253340;
   @media (min-width: $screen-is-min)  {
     @content;
   }
+}
+
+@mixin border-radius ( $value: 3px ) {
+  -webkit-border-radius: $value;
+  -moz-border-radius: $value;
+  border-radius: $value;
+  // keeps background from busting out of border
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+
+@mixin box-shadow( $horiz : .5em , $vert : .5em , $blur : 0px , $spread : 0px , $color : #000000 ){
+  -webkit-box-shadow: $horiz $vert $blur $spread $color;
+  -moz-box-shadow: $horiz $vert $blur $spread $color;
+  box-shadow: $horiz $vert $blur $spread $color;
 }

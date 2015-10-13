@@ -63,13 +63,14 @@ body {
       margin-top: 95px;
     }
 
-    .promo.section {
+    .teaser {
       padding-top: 120px;
       padding-bottom: 100px;
       margin-bottom: 0px;
       background: $dark-blue;
 
       .title-main {
+        color: white;
         font-size: 46px;
         margin-bottom: 20px;
         margin-top: 0;
@@ -99,7 +100,7 @@ body {
           display: inline-block;
           color: $gray;
           font-size: 17.5px;
-          border-radius: 5px;
+          @include border-radius(5px);
 
            &.no-margin {
              margin: 0px;
@@ -113,9 +114,8 @@ body {
         .intro {
           color: $turquoise;
           border: 1px solid $turquoise;
-          box-shadow: 2px 2px 20px #252729;
+          @include box-shadow(2px , 2px , 20px ,0px , #252729);
           font-weight: bold;
-          text-transform: capitalize;
           font-size: 20px;
           width: 100%;
           display: inline-block;
@@ -126,8 +126,8 @@ body {
           padding: 15px;
           background-color: rgba(123, 135, 146, 0.12);
           background: $light-gray;
-          border-radius: 4px;
-          box-shadow: 4px 4px 30px #252729;
+          @include border-radius(4px);
+          @include box-shadow(4px , 4px , 30px ,0px , #252729);
 
           img {
             border: 1px solid #A2A2A2;
@@ -169,11 +169,11 @@ body {
         margin: auto;
         background-color: white;
         border: 1px solid rgba(0, 0, 0, 0.22);
-        border-radius: 5px;
+        @include border-radius(5px);
         max-width: 770px;
         bottom: -78px;
         z-index: 100;
-        box-shadow: 2px 2px 20px rgba(37, 39, 41, 0.22);
+        @include box-shadow(2px , 2px , 20px ,0px , rgba(37, 39, 41, 0.22));
 
         p {
           font-size: 18px;
@@ -231,22 +231,22 @@ body {
           li {
             padding: 8px;
             text-align: center;
-            border-radius: 4px;
+            @include border-radius(4px);
             border: 1px solid transparent;
             margin-bottom: 20px;
             background: white;
-            box-shadow: 0 4px 1px rgba(0, 0, 0, 0.1);
+            @include box-shadow(0px , 4px , 1px ,0px , rgba(0, 0, 0, 0.1));
 
             &:hover {
-              box-shadow: 0 4px 1px rgba(0, 0, 0, 0.25);
+              @include box-shadow(0px , 4px , 1px ,0px , rgba(0, 0, 0, 0.25));
 
               a {
-                color: $gizra-dark
+                color: $dark-blue
               }
             }
 
             a {
-              color: $gizra;
+              color: $light-blue;
               text-decoration: none;
               display: block;
             }
