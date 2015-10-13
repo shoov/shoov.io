@@ -6531,30 +6531,26 @@ button.close {
           width: 25%; } }
 
 .home-page #links {
-  margin-top: 40px;
+  margin-top: 20px;
   margin-bottom: 35px; }
   .home-page #links .container {
     max-width: 800px; }
+    .home-page #links .container h2 {
+      margin-bottom: 10px; }
+      @media (max-width: 479px) {
+        .home-page #links .container h2 {
+          text-align: left; } }
     .home-page #links .container ul {
       padding: 0px;
       list-style: none; }
       .home-page #links .container ul li {
-        padding: 8px;
-        text-align: center;
-        border-radius: 4px;
-        background-clip: padding-box;
-        border: 1px solid transparent;
-        margin-bottom: 20px;
-        background: white;
-        box-shadow: 0px 4px 1px 0px rgba(0, 0, 0, 0.1); }
-        .home-page #links .container ul li:hover {
-          box-shadow: 0px 4px 1px 0px rgba(0, 0, 0, 0.25); }
-          .home-page #links .container ul li:hover a {
-            color: #253340; }
+        padding: 8px; }
         .home-page #links .container ul li a {
-          color: #5d80a1;
+          color: #565656;
           text-decoration: none;
           display: block; }
+          .home-page #links .container ul li a:hover {
+            color: #999999; }
 
 body {
   background: #f5f5f5;
