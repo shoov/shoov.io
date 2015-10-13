@@ -6421,14 +6421,16 @@ button.close {
       margin: 0px; }
   .home-page .teaser .container {
     max-width: 800px; }
+    .home-page .teaser .container .strong {
+      color: #999999; }
     .home-page .teaser .container .light-box {
       background-color: rgba(123, 135, 146, 0.12); }
     .home-page .teaser .container .video {
       max-width: 500px;
       margin: 25px auto 0px auto;
       padding: 15px;
-      background-color: rgba(123, 135, 146, 0.12);
-      background: #f5f5f5;
+      background: rgba(123, 135, 146, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.14);
       border-radius: 4px;
       background-clip: padding-box;
       box-shadow: 4px 4px 30px 0px #252729; }
@@ -6448,9 +6450,15 @@ button.close {
         color: white;
         background: #253340; }
     .home-page .teaser .container .contact-us-title {
-      margin-top: 45px;
+      margin-top: 75px;
       font-size: 21px;
-      padding-bottom: 0px; }
+      margin-bottom: -10px;
+      display: inline-block;
+      padding: 10px;
+      background-color: #28A5A8;
+      color: white; }
+      .home-page .teaser .container .contact-us-title .gizra-logo {
+        color: white; }
 
 .home-page .more-shoov {
   position: relative; }
@@ -6464,7 +6472,7 @@ button.close {
     border-radius: 5px;
     background-clip: padding-box;
     max-width: 770px;
-    bottom: -78px;
+    bottom: -124px;
     z-index: 100;
     box-shadow: 2px 2px 20px 0px rgba(37, 39, 41, 0.22); }
     .home-page .more-shoov .container p {
@@ -6534,6 +6542,8 @@ body {
       color: #e25d48; }
   body .turquoise {
     color: #28A5A8; }
+  body .white {
+    color: white; }
   body a {
     color: #28A5A8; }
     body a:hover, body a:focus {
