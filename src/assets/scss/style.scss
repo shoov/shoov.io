@@ -9,6 +9,10 @@ body {
   background: $light-gray;
   font-family: 'Fira Sans', arial, sans-serif;
 
+  &:not('.home-page') {
+    margin-top: 95px;
+  }
+
   .gizra-logo {
     font-family: Abril Fatface;
     color: $gizra;
@@ -56,200 +60,210 @@ body {
     margin-bottom: 25px;
     color: $gray-medium;
   }
+}
 
-  main {
+.home-page {
 
-    &:not('.home-page') {
-      margin-top: 95px;
+  p {
+    max-width: 100%;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    padding: 15px;
+    display: inline-block;
+    color: $gray;
+    font-size: 17.5px;
+    @include border-radius(5px);
+
+    &.no-margin {
+      margin: 0px;
+    }
+  }
+
+  .teaser {
+    padding-top: 120px;
+    padding-bottom: 100px;
+    margin-bottom: 0px;
+    background: $dark-blue;
+
+    p {
+      padding: 0px;
     }
 
-    .teaser {
-      padding-top: 120px;
-      padding-bottom: 100px;
-      margin-bottom: 0px;
-      background: $dark-blue;
+    .title-main {
+      color: white;
+      font-size: 46px;
+      margin-bottom: 20px;
+      margin-top: 0;
+      font-weight: 700;
+      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    }
 
-      .title-main {
-        color: white;
-        font-size: 46px;
-        margin-bottom: 20px;
-        margin-top: 0;
-        font-weight: 700;
-        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    @include from-mobile {
+      height: auto;
+    }
+
+    h1 .gizra-logo {
+      display: inline-block;
+      margin-left: 10px;
+      font-size: 48px;
+      letter-spacing: 0.015em;
+    }
+
+    .intro {
+      max-width: 900px;
+      padding: 10px;
+      color: $turquoise;
+      border: 1px solid $turquoise;
+      @include border-radius(4px);
+      @include box-shadow(2px , 2px , 20px ,0px , #252729);
+      font-weight: bold;
+      font-size: 20px;
+      width: 100%;
+      display: inline-block;
+
+      h4 {
+        font-size: 23px;
+        font-weight: bold;
+        letter-spacing: 1px;
+      }
+    }
+
+    .container {
+      max-width: 800px;
+
+      .light-box {
+        background-color: rgba(123, 135, 146, 0.12);
       }
 
-      @include from-mobile {
-        height: auto;
+      .video {
+        margin: 25px auto 0px auto;
+        padding: 15px;
+        background-color: rgba(123, 135, 146, 0.12);
+        background: $light-gray;
+        @include border-radius(4px);
+        @include box-shadow(4px , 4px , 30px ,0px , #252729);
+
+        img {
+          border: 1px solid #A2A2A2;
+        }
       }
 
-      h1 .gizra-logo {
+      .tutorial {
+        font-size: 16px;
+        font-weight: normal;
+        padding: 10px;
+        background: $dark-blue;
+        border-color: rgba(255, 255, 255, 0.36);
+        color: rgba(255, 255, 255, 0.75);
+        margin: 35px auto 0px auto;
         display: inline-block;
-        margin-left: 10px;
-        font-size: 48px;
-        letter-spacing: 0.015em;
-      }
+        width: auto;
 
-      .container {
-        max-width: 800px;
-
-         p {
-          max-width: 100%;
-          margin-top: 25px;
-          margin-bottom: 0px;
-          padding: 15px;
-          display: inline-block;
-          color: $gray;
-          font-size: 17.5px;
-          @include border-radius(5px);
-
-           &.no-margin {
-             margin: 0px;
-           }
-        }
-
-        .light-box {
-          background-color: rgba(123, 135, 146, 0.12);
-        }
-
-        .intro {
-          color: $turquoise;
-          border: 1px solid $turquoise;
-          @include box-shadow(2px , 2px , 20px ,0px , #252729);
-          font-weight: bold;
-          font-size: 20px;
-          width: 100%;
-          display: inline-block;
-        }
-
-        .video {
-          margin: 25px auto 0px auto;
-          padding: 15px;
-          background-color: rgba(123, 135, 146, 0.12);
-          background: $light-gray;
-          @include border-radius(4px);
-          @include box-shadow(4px , 4px , 30px ,0px , #252729);
-
-          img {
-            border: 1px solid #A2A2A2;
-          }
-        }
-
-        .tutorial {
-          font-size: 16px;
-          font-weight: normal;
-          padding: 10px;
+        &:hover, &:focus {
+          color: white;
           background: $dark-blue;
-          border-color: rgba(255, 255, 255, 0.36);
-          color: rgba(255, 255, 255, 0.75);
-          margin: 35px auto 0px auto;
-          display: inline-block;
-          width: auto;
-
-          &:hover, &:focus {
-            color: white;
-            background: $dark-blue;
-          }
-        }
-
-        .contact-us-title {
-          margin-top: 45px;
-          font-size: 21px;
-          padding-bottom: 0px;
         }
       }
-    }
 
-    .more-shoov {
-      position: relative;
-
-      .container {
-        position: absolute;
-        left: 0;
-        right: 0;
-        margin: auto;
-        background-color: white;
-        border: 1px solid rgba(0, 0, 0, 0.22);
-        @include border-radius(5px);
-        max-width: 770px;
-        bottom: -78px;
-        z-index: 100;
-        @include box-shadow(2px , 2px , 20px ,0px , rgba(37, 39, 41, 0.22));
-
-        p {
-          font-size: 18px;
-          color: $medium-blue;
-        }
-
-        #shoov-trail-form {
-          padding: 20px;
-          .form-group {
-            padding: 0px;
-            &:last-child {
-              margin-bottom: 0px;
-            }
-          }
-        }
+      .contact-us-title {
+        margin-top: 45px;
+        font-size: 21px;
+        padding-bottom: 0px;
       }
     }
+  }
 
-    #clients {
-      background: #f5f5f5;
-      padding-top: 120px;
-      position: relative;
+  .more-shoov {
+    position: relative;
 
-      .container {
-        max-width: 800px;
+    .container {
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto;
+      background-color: white;
+      border: 1px solid rgba(0, 0, 0, 0.22);
+      @include border-radius(5px);
+      max-width: 770px;
+      bottom: -78px;
+      z-index: 100;
+      @include box-shadow(2px , 2px , 20px ,0px , rgba(37, 39, 41, 0.22));
 
-        .logo {
-          float: left;
-          height: 120px;
-          line-height:120px;
-          text-align:center;
-
-          img {
-            vertical-align: middle;
-            display: inline-block;
-          }
-
-          @media (min-width: $screen-xs-max) {
-            width: 25%;
-          }
-        }
+      p {
+        font-size: 18px;
+        color: $medium-blue;
       }
-    }
-    #links {
-      margin-top: 20px;
-      margin-bottom: 35px;
 
-      .container {
-        max-width: 800px;
-
-        ul {
+      #shoov-trail-form {
+        padding: 20px;
+        .form-group {
           padding: 0px;
-          list-style: none;
+          &:last-child {
+            margin-bottom: 0px;
+          }
+        }
+      }
+    }
+  }
 
-          li {
-            padding: 8px;
-            text-align: center;
-            @include border-radius(4px);
-            border: 1px solid transparent;
-            margin-bottom: 20px;
-            background: white;
-            @include box-shadow(0px , 4px , 1px ,0px , rgba(0, 0, 0, 0.1));
+  #clients {
+    background: #f5f5f5;
+    padding-top: 120px;
+    position: relative;
 
-            &:hover {
-              @include box-shadow(0px , 4px , 1px ,0px , rgba(0, 0, 0, 0.25));
+    .container {
+      max-width: 800px;
 
-              a {
-                color: $dark-blue
-              }
-            }
+      .logo {
+        float: left;
+        height: 120px;
+        line-height:120px;
+        text-align:center;
+
+        img {
+          vertical-align: middle;
+          display: inline-block;
+        }
+
+        @media (min-width: $screen-xs-max) {
+          width: 25%;
+        }
+      }
+    }
+  }
+
+  #links {
+    margin-top: 20px;
+    margin-bottom: 35px;
+
+    .container {
+      max-width: 800px;
+
+      ul {
+        padding: 0px;
+        list-style: none;
+
+        li {
+          padding: 8px;
+          text-align: center;
+          @include border-radius(4px);
+          border: 1px solid transparent;
+          margin-bottom: 20px;
+          background: white;
+          @include box-shadow(0px , 4px , 1px ,0px , rgba(0, 0, 0, 0.1));
+
+          &:hover {
+            @include box-shadow(0px , 4px , 1px ,0px , rgba(0, 0, 0, 0.25));
 
             a {
-              color: $light-blue;
-              text-decoration: none;
-              display: block;
+              color: $dark-blue
             }
+          }
+
+          a {
+            color: $light-blue;
+            text-decoration: none;
+            display: block;
           }
         }
       }

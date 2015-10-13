@@ -6372,6 +6372,8 @@ button.close {
 body {
   background: #f5f5f5;
   font-family: 'Fira Sans', arial, sans-serif; }
+  body:not('.home-page') {
+    margin-top: 95px; }
   body .gizra-logo {
     font-family: Abril Fatface;
     color: #e27058; }
@@ -6402,142 +6404,155 @@ body {
     margin-top: 25px;
     margin-bottom: 25px;
     color: #565656; }
-  body main:not('.home-page') {
-    margin-top: 95px; }
-  body main .teaser {
-    padding-top: 120px;
-    padding-bottom: 100px;
-    margin-bottom: 0px;
-    background: #253340; }
-    body main .teaser .title-main {
-      color: white;
-      font-size: 46px;
-      margin-bottom: 20px;
-      margin-top: 0;
-      font-weight: 700;
-      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); }
-    @media (min-width: 480px) {
-      body main .teaser {
-        height: auto; } }
-    body main .teaser h1 .gizra-logo {
+
+.home-page p {
+  max-width: 100%;
+  margin-top: 25px;
+  margin-bottom: 0px;
+  padding: 15px;
+  display: inline-block;
+  color: #999999;
+  font-size: 17.5px;
+  border-radius: 5px;
+  background-clip: padding-box; }
+  .home-page p.no-margin {
+    margin: 0px; }
+
+.home-page .teaser {
+  padding-top: 120px;
+  padding-bottom: 100px;
+  margin-bottom: 0px;
+  background: #253340; }
+  .home-page .teaser p {
+    padding: 0px; }
+  .home-page .teaser .title-main {
+    color: white;
+    font-size: 46px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    font-weight: 700;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); }
+  @media (min-width: 480px) {
+    .home-page .teaser {
+      height: auto; } }
+  .home-page .teaser h1 .gizra-logo {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 48px;
+    letter-spacing: 0.015em; }
+  .home-page .teaser .intro {
+    max-width: 900px;
+    padding: 10px;
+    color: #28A5A8;
+    border: 1px solid #28A5A8;
+    border-radius: 4px;
+    background-clip: padding-box;
+    box-shadow: 2px 2px 20px 0px #252729;
+    font-weight: bold;
+    font-size: 20px;
+    width: 100%;
+    display: inline-block; }
+    .home-page .teaser .intro h4 {
+      font-size: 23px;
+      font-weight: bold;
+      letter-spacing: 1px; }
+  .home-page .teaser .container {
+    max-width: 800px; }
+    .home-page .teaser .container .light-box {
+      background-color: rgba(123, 135, 146, 0.12); }
+    .home-page .teaser .container .video {
+      margin: 25px auto 0px auto;
+      padding: 15px;
+      background-color: rgba(123, 135, 146, 0.12);
+      background: #f5f5f5;
+      border-radius: 4px;
+      background-clip: padding-box;
+      box-shadow: 4px 4px 30px 0px #252729; }
+      .home-page .teaser .container .video img {
+        border: 1px solid #A2A2A2; }
+    .home-page .teaser .container .tutorial {
+      font-size: 16px;
+      font-weight: normal;
+      padding: 10px;
+      background: #253340;
+      border-color: rgba(255, 255, 255, 0.36);
+      color: rgba(255, 255, 255, 0.75);
+      margin: 35px auto 0px auto;
       display: inline-block;
-      margin-left: 10px;
-      font-size: 48px;
-      letter-spacing: 0.015em; }
-    body main .teaser .container {
-      max-width: 800px; }
-      body main .teaser .container p {
-        max-width: 100%;
-        margin-top: 25px;
-        margin-bottom: 0px;
-        padding: 15px;
-        display: inline-block;
-        color: #999999;
-        font-size: 17.5px;
-        border-radius: 5px;
-        background-clip: padding-box; }
-        body main .teaser .container p.no-margin {
-          margin: 0px; }
-      body main .teaser .container .light-box {
-        background-color: rgba(123, 135, 146, 0.12); }
-      body main .teaser .container .intro {
-        color: #28A5A8;
-        border: 1px solid #28A5A8;
-        box-shadow: 2px 2px 20px 0px #252729;
-        font-weight: bold;
-        font-size: 20px;
-        width: 100%;
+      width: auto; }
+      .home-page .teaser .container .tutorial:hover, .home-page .teaser .container .tutorial:focus {
+        color: white;
+        background: #253340; }
+    .home-page .teaser .container .contact-us-title {
+      margin-top: 45px;
+      font-size: 21px;
+      padding-bottom: 0px; }
+
+.home-page .more-shoov {
+  position: relative; }
+  .home-page .more-shoov .container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.22);
+    border-radius: 5px;
+    background-clip: padding-box;
+    max-width: 770px;
+    bottom: -78px;
+    z-index: 100;
+    box-shadow: 2px 2px 20px 0px rgba(37, 39, 41, 0.22); }
+    .home-page .more-shoov .container p {
+      font-size: 18px;
+      color: #194D7D; }
+    .home-page .more-shoov .container #shoov-trail-form {
+      padding: 20px; }
+      .home-page .more-shoov .container #shoov-trail-form .form-group {
+        padding: 0px; }
+        .home-page .more-shoov .container #shoov-trail-form .form-group:last-child {
+          margin-bottom: 0px; }
+
+.home-page #clients {
+  background: #f5f5f5;
+  padding-top: 120px;
+  position: relative; }
+  .home-page #clients .container {
+    max-width: 800px; }
+    .home-page #clients .container .logo {
+      float: left;
+      height: 120px;
+      line-height: 120px;
+      text-align: center; }
+      .home-page #clients .container .logo img {
+        vertical-align: middle;
         display: inline-block; }
-      body main .teaser .container .video {
-        margin: 25px auto 0px auto;
-        padding: 15px;
-        background-color: rgba(123, 135, 146, 0.12);
-        background: #f5f5f5;
+      @media (min-width: 479px) {
+        .home-page #clients .container .logo {
+          width: 25%; } }
+
+.home-page #links {
+  margin-top: 20px;
+  margin-bottom: 35px; }
+  .home-page #links .container {
+    max-width: 800px; }
+    .home-page #links .container ul {
+      padding: 0px;
+      list-style: none; }
+      .home-page #links .container ul li {
+        padding: 8px;
+        text-align: center;
         border-radius: 4px;
         background-clip: padding-box;
-        box-shadow: 4px 4px 30px 0px #252729; }
-        body main .teaser .container .video img {
-          border: 1px solid #A2A2A2; }
-      body main .teaser .container .tutorial {
-        font-size: 16px;
-        font-weight: normal;
-        padding: 10px;
-        background: #253340;
-        border-color: rgba(255, 255, 255, 0.36);
-        color: rgba(255, 255, 255, 0.75);
-        margin: 35px auto 0px auto;
-        display: inline-block;
-        width: auto; }
-        body main .teaser .container .tutorial:hover, body main .teaser .container .tutorial:focus {
-          color: white;
-          background: #253340; }
-      body main .teaser .container .contact-us-title {
-        margin-top: 45px;
-        font-size: 21px;
-        padding-bottom: 0px; }
-  body main .more-shoov {
-    position: relative; }
-    body main .more-shoov .container {
-      position: absolute;
-      left: 0;
-      right: 0;
-      margin: auto;
-      background-color: white;
-      border: 1px solid rgba(0, 0, 0, 0.22);
-      border-radius: 5px;
-      background-clip: padding-box;
-      max-width: 770px;
-      bottom: -78px;
-      z-index: 100;
-      box-shadow: 2px 2px 20px 0px rgba(37, 39, 41, 0.22); }
-      body main .more-shoov .container p {
-        font-size: 18px;
-        color: #194D7D; }
-      body main .more-shoov .container #shoov-trail-form {
-        padding: 20px; }
-        body main .more-shoov .container #shoov-trail-form .form-group {
-          padding: 0px; }
-          body main .more-shoov .container #shoov-trail-form .form-group:last-child {
-            margin-bottom: 0px; }
-  body main #clients {
-    background: #f5f5f5;
-    padding-top: 120px;
-    position: relative; }
-    body main #clients .container {
-      max-width: 800px; }
-      body main #clients .container .logo {
-        float: left;
-        height: 120px;
-        line-height: 120px;
-        text-align: center; }
-        body main #clients .container .logo img {
-          vertical-align: middle;
-          display: inline-block; }
-        @media (min-width: 479px) {
-          body main #clients .container .logo {
-            width: 25%; } }
-  body main #links {
-    margin-top: 20px;
-    margin-bottom: 35px; }
-    body main #links .container {
-      max-width: 800px; }
-      body main #links .container ul {
-        padding: 0px;
-        list-style: none; }
-        body main #links .container ul li {
-          padding: 8px;
-          text-align: center;
-          border-radius: 4px;
-          background-clip: padding-box;
-          border: 1px solid transparent;
-          margin-bottom: 20px;
-          background: white;
-          box-shadow: 0px 4px 1px 0px rgba(0, 0, 0, 0.1); }
-          body main #links .container ul li:hover {
-            box-shadow: 0px 4px 1px 0px rgba(0, 0, 0, 0.25); }
-            body main #links .container ul li:hover a {
-              color: #253340; }
-          body main #links .container ul li a {
-            color: #5d80a1;
-            text-decoration: none;
-            display: block; }
+        border: 1px solid transparent;
+        margin-bottom: 20px;
+        background: white;
+        box-shadow: 0px 4px 1px 0px rgba(0, 0, 0, 0.1); }
+        .home-page #links .container ul li:hover {
+          box-shadow: 0px 4px 1px 0px rgba(0, 0, 0, 0.25); }
+          .home-page #links .container ul li:hover a {
+            color: #253340; }
+        .home-page #links .container ul li a {
+          color: #5d80a1;
+          text-decoration: none;
+          display: block; }
