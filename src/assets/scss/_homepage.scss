@@ -20,13 +20,24 @@
       padding: 0px;
     }
 
-    .title-main {
+    .title-main,
+    .title-sub {
       color: white;
-      font-size: 46px;
-      margin-bottom: 20px;
       margin-top: 0;
-      font-weight: 700;
       text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    }
+
+    .title-main {
+      font-size: 96px;
+      font-weight: 400;
+      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+      font-family: 'Audiowide', arial, sans-serif;
+    }
+
+    .title-sub {
+      font-size: 34px;
+      margin-top: 15px;
+      font-weight: 700;
     }
 
     @include from-mobile {
@@ -35,8 +46,7 @@
 
     h1 .gizra-logo {
       display: inline-block;
-      margin-left: 10px;
-      font-size: 48px;
+      font-size: 34px;
       letter-spacing: 0.015em;
     }
 
@@ -166,7 +176,7 @@
   }
 
   #links {
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 35px;
 
     .container {
