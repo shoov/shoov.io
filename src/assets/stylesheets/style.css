@@ -6516,6 +6516,8 @@ button.close {
   background: #f5f5f5;
   padding-top: 180px;
   position: relative; }
+  .home-page #clients .alert-success {
+    display: none; }
   .home-page #clients .container {
     max-width: 800px; }
     .home-page #clients .container .logo {

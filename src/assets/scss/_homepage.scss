@@ -177,6 +177,10 @@
     padding-top: 180px;
     position: relative;
 
+    .alert-success {
+      display: none;
+    }
+
     .container {
       max-width: 800px;
 
