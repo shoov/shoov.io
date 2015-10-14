@@ -6426,8 +6426,8 @@ body .home-page .teaser {
       height: auto; } }
   body .home-page .teaser h2 .gizra-logo {
     display: inline-block;
-    font-size: 34px;
-    letter-spacing: 0.015em; }
+    font-size: 42px;
+    letter-spacing: 0.035em; }
   body .home-page .teaser .intro {
     margin: 15px auto 0px auto;
     max-width: 900px;
@@ -6516,7 +6516,7 @@ body .home-page #clients {
   background: #f5f5f5;
   padding-top: 180px;
   position: relative; }
-  body .home-page #clients .alert-success {
+  body .home-page #clients .alert {
     display: none; }
   body .home-page #clients .container {
     max-width: 800px; }

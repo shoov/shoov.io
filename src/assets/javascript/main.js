@@ -15,6 +15,9 @@ $(document).ready(function() {
     $('input, textarea').placeholder();
 
 
+  /**
+   * Contact us form for setting "Shoov" trial submit callback.
+   */
     var submitTrailForm = function(){
 
       // The form element.
@@ -32,23 +35,21 @@ $(document).ready(function() {
 
         // Simple validation.
         if (website == '' || email == '') {
-          console.log('empty')
+          $('.alert-danger').show();
           return;
         };
-
-        return;
 
         $.ajax({
           url: $form.attr('action'),
           method: "POST",
           data: {
-            site: 'shoov.io - contact trail set up',
+            subject: 'shoov - contact trail set up',
             url: website,
             website:  email
           },
           dataType: "json",
-          success: function (response) {
-            console.log(response);
+          success: function () {
+            $('.alert-danger').hide();
             $('.alert-success').show();
           }
         });
@@ -56,8 +57,7 @@ $(document).ready(function() {
 
     }
 
-    // Form contact for trial submission callback.
+  // Form contact for trial submission callback.
   submitTrailForm();
-
 
 });
