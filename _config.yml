@@ -49,3 +49,6 @@ debug_responsive: false
 
 # url for the form "action" on submit(#shoov-trial-form).
 trial_form_action: //formspree.io/yaron@gizra.com
+
+# Redirect url after form submittion(#shoov-trial-form).
+trial_form_redirect: http://localhost:3000/?sent=true
