@@ -6585,62 +6585,66 @@ body .home-page #links {
     color: white;
     background: #288A8D; }
 
-.page.tutorial button.menu {
-  background: #28A5A8;
-  color: white; }
-  .page.tutorial button.menu:focus {
-    border: none; }
-
-.page.tutorial #lessons-menu .lessons {
-  margin-top: 25px; }
-  .page.tutorial #lessons-menu .lessons a {
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
-    display: block;
-    color: white;
-    text-decoration: none;
-    border-left: 8px solid #28A5A8;
-    padding: 12px;
-    background: #253340; }
-    .page.tutorial #lessons-menu .lessons a:hover {
-      color: #28A5A8; }
-    .page.tutorial #lessons-menu .lessons a:first-child {
-      margin-top: 0px;
-      border-top: none; }
-    .page.tutorial #lessons-menu .lessons a.active {
+.page.tutorial {
+  padding-bottom: 80px; }
+  .page.tutorial button.menu {
+    background: #28A5A8;
+    color: white; }
+    .page.tutorial button.menu:focus {
+      border: none; }
+    @media (max-width: 992px) {
+      .page.tutorial button.menu {
+        width: 100%;
+        margin-bottom: 20px; } }
+  .page.tutorial #lessons-menu .lessons {
+    margin-top: 25px;
+    margin-bottom: 25px; }
+    @media (max-width: 992px) {
+      .page.tutorial #lessons-menu .lessons {
+        margin-top: 0px; } }
+    .page.tutorial #lessons-menu .lessons a {
+      border-top: 1px solid rgba(255, 255, 255, 0.2);
+      display: block;
       color: white;
-      background: #28A5A8; }
-
-.page.tutorial img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 0px; }
-
-.page.tutorial pre {
-  color: #16222D;
-  border-color: rgba(37, 51, 64, 0.1);
-  background: #EDF5FD; }
-
-.page.tutorial li {
-  margin-top: 8px;
-  margin-bottom: 8px; }
-
-.page.tutorial h2,
-.page.tutorial h3,
-.page.tutorial h4,
-.page.tutorial h5,
-.page.tutorial h6 {
-  margin-top: 25px;
-  margin-bottom: 35px;
-  font-family: 'Droid Serif', serif;
-  color: #565656; }
-
-.page.tutorial h2 {
-  padding-bottom: 10px;
-  margin-bottom: 25px;
-  border-bottom: 1px solid #E4E4E4; }
+      text-decoration: none;
+      border-left: 8px solid #28A5A8;
+      padding: 12px;
+      background: #253340; }
+      .page.tutorial #lessons-menu .lessons a:hover {
+        color: #28A5A8; }
+      .page.tutorial #lessons-menu .lessons a:first-child {
+        margin-top: 0px;
+        border-top: none; }
+      .page.tutorial #lessons-menu .lessons a.active {
+        color: white;
+        background: rgba(37, 51, 64, 0.85); }
+  .page.tutorial img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0px; }
+  .page.tutorial pre {
+    color: #16222D;
+    border-color: rgba(37, 51, 64, 0.1);
+    background: #EDF5FD; }
+  .page.tutorial li {
+    margin-top: 8px;
+    margin-bottom: 8px; }
+  .page.tutorial h2,
+  .page.tutorial h3,
+  .page.tutorial h4,
+  .page.tutorial h5,
+  .page.tutorial h6 {
+    margin-top: 25px;
+    margin-bottom: 35px;
+    font-family: 'Droid Serif', serif;
+    color: #565656; }
+  .page.tutorial h2 {
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #E4E4E4; }
 
 body {
   background: #f5f5f5;
