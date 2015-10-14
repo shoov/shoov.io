@@ -3,7 +3,7 @@ layout: tutorial
 title: Lesson 4 - Dynamic Elements Intro
 ---
 
-# Overview
+## Overview
 
 [Previous chapter](/tutorials/lesson3-static-page/) was dealing with a completely static page. That means that no matter how many times we refresh the page, it will always look the same.
 
@@ -17,7 +17,7 @@ webdriverCSS has three handy commands that helps us with dynamic elements: `excl
 * `remove`: Completely remove the element, so it won't take any space. Under the hood it's using `display: none`.
 * `hide`: Hide the element, but keep the space it's taking. Under the hood it's using `visibility: hidden`.
 
-# Ignore Strategy
+## Ignore Strategy
 
 What is better, to exclude or to remove? Well, as always - it depends.
 

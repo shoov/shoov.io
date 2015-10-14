@@ -3,7 +3,7 @@ layout: tutorial
 title: Lesson 5 - Complex Dynamic Elements
 ---
 
-# Planning
+## Planning
 
 Let's look the dynamic page in http://pages.shoov.io/dynamic-page and decide how to deal with each element, remembering that `remove`, `exclude` and `hide` are our main tools.
 
