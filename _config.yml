@@ -9,9 +9,6 @@ url: localhost:4000
 source: src
 destination: serve
 
-# Add a block on page header element that displays the current breakpoint type.
-debug_responsive: false
-
 # Same as the title etc for your site but can instead be
 # called by using 'site.author.name' and so on
 author:
@@ -46,3 +43,12 @@ redcarpet:
   extensions: ['no_intra_emphasis', 'tables', 'fenced_code_blocks', 'autolink', 'smart',
               'strikethrough', 'superscript', 'underline', 'highlight', 'footnotes']
 highlighter: true
+
+# url for the form "action" on submit(#shoov-trial-form).
+shoov_trial_form_action: //formspree.io/yaron@gizra.com
+
+# Redirect url after form submittion(#shoov-trial-form).
+shoov_trial_form_redirect: http://localhost:3000/?sent=true
+
+# Add a block on page header element that displays the current breakpoint type.
+debug_responsive: false
