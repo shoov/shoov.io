@@ -1,6 +1,5 @@
 ---
-layout: page
-type: tutorial
+layout: tutorial
 title: Lesson 4 - Dynamic Elements Intro
 ---
 
