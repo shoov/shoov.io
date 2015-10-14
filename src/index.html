@@ -23,7 +23,7 @@ title: Home
     </section>
     <div class="more-shoov">
         <section class="container">
-            <form id="shoov-trial-form" class="contact-form" method="post" action="//formspree.io/yaron@gizra.com">
+            <form id="trial-form" class="contact-form" method="post" action="{{ site.trial_form_action }}">
                 <div class="row">
                     <div class="col-xs-12 form-group">
                         <label class="turquoise text-left" for="name">Website url</label>
@@ -43,6 +43,7 @@ title: Home
                         <button type="submit" class="btn btn-block btn-primary">Get Shoov</button>
                     </div>
                 </div>
+                <input type="hidden" name="_next" value="{{ site.trial_form_redirect }}" />
             </form>
         </section>
     </div>
