@@ -6585,13 +6585,35 @@ body .home-page #links {
     color: white;
     background: #288A8D; }
 
-.page.tutorial .dropdown-toggle {
-  color: white;
-  padding: 15px;
-  background: #28A5A8; }
+.page.tutorial button.menu {
+  background: #28A5A8;
+  color: white; }
+  .page.tutorial button.menu:focus {
+    border: none; }
+
+.page.tutorial #lessons-menu .lessons {
+  margin-top: 25px; }
+  .page.tutorial #lessons-menu .lessons a {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    display: block;
+    color: white;
+    text-decoration: none;
+    border-left: 8px solid #28A5A8;
+    padding: 12px;
+    background: #253340; }
+    .page.tutorial #lessons-menu .lessons a:hover {
+      color: #28A5A8; }
+    .page.tutorial #lessons-menu .lessons a:first-child {
+      margin-top: 0px;
+      border-top: none; }
+    .page.tutorial #lessons-menu .lessons a.active {
+      color: white;
+      background: #28A5A8; }
 
 .page.tutorial img {
   display: block;
+  max-width: 100%;
+  height: auto;
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 0px; }

@@ -1,14 +1,50 @@
 .page.tutorial {
 
-  .dropdown-toggle {
-    color:  white;
-    padding: 15px;
-    background: $turquoise;
+  button.menu {
+    background: #28A5A8;
+    color: white;
 
+    &:focus {
+      border: none;
+    }
+  }
+
+  #lessons-menu {
+
+    .lessons {
+      margin-top: 25px;
+
+      a {
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+        display: block;
+        color: white;
+        text-decoration: none;
+        border-left: 8px solid $turquoise;
+        padding: 12px;
+        background: $dark-blue;
+
+        &:hover {
+          color: $turquoise;
+        }
+
+        &:first-child {
+          margin-top: 0px;
+          border-top: none;
+        }
+
+        &.active {
+          color: white;
+          background: $turquoise;
+        }
+
+      }
+    }
   }
 
   img {
     display: block;
+    max-width: 100%;
+    height: auto;
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 0px;

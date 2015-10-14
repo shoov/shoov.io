@@ -7,18 +7,20 @@ layout: default
     <hr class="full"/>
     <div class="row">
       <div class="col-xs-12">
-        <button class="btn btn-default pull-right" data-toggle="collapse" data-target="#lessons-navigation">Lessons <i class="fa fa-angle-down"></i></button>
+        <button class="btn btn-default pull-right menu" data-toggle="collapse" data-target="#lessons-menu"><i class="fa fa-book"></i> Lessons menu</i></button>
       </div>
-      <ul id="lessons-navigation" class="collapse col-xs-12">
-        {% assign tutorials = site.pages %}
-          {% for node in tutorials %}
-            {% if node.title != null %}
-              {% if node.layout == 'tutorial' %}
-                <li class="{% if page.url == node.url %}active{% endif %}"><a href="{{ node.url }}">{{ node.title }}</a></li>
+      <div id="lessons-menu" class="collapse col-xs-12">
+        <div class="lessons">
+          {% assign tutorials = site.pages %}
+            {% for node in tutorials %}
+              {% if node.title != null %}
+                {% if node.layout == 'tutorial' %}
+                  <a href="{{ node.url }}" class="{% if page.url == node.url %}active{% endif %}">{{ node.title }} </a>
+                {% endif %}
             {% endif %}
-          {% endif %}
-        {% endfor %}
-      </ul>
+          {% endfor %}
+        </div>
+      </div>
   </div>
     {{ content }}
   </div>
