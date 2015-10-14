@@ -14,6 +14,10 @@ body {
   main {
     &:not(.home-page) {
       margin-top: 95px;
+
+      @include phone-to-medium-desktop-only {
+        margin-top: 0px;
+      }
     }
   }
 
@@ -69,6 +73,10 @@ body {
   .title {
     font-family: 'Droid Serif', serif;
     color: $gray-medium;
+
+    @include phone-to-medium-desktop-only {
+      text-align: center;
+    }
   }
 }
 
