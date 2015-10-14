@@ -44,11 +44,8 @@ redcarpet:
               'strikethrough', 'superscript', 'underline', 'highlight', 'footnotes']
 highlighter: true
 
-# url for the form "action" on submit(#shoov-trial-form).
-trial_form_action: //formspree.io/yaron@gizra.com
-
-# Redirect url after form submittion(#shoov-trial-form).
-trial_form_redirect: http://localhost:3000/?sent=true
-
 # Add a block on page header element that displays the current breakpoint type.
 debug_responsive: false
+
+# url for the form "action" on submit(#shoov-trial-form).
+trial_form_action: //formspree.io/yaron@gizra.com

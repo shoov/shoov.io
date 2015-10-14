@@ -22,6 +22,7 @@ body {
   }
 
   .gizra-logo {
+    text-transform: lowercase;
     font-family: Abril Fatface;
     color: $gizra;
 
@@ -52,7 +53,8 @@ body {
     background-color: $turquoise;
     border-color: $turquoise;
 
-    &:hover {
+    &:hover,
+    &:focus {
       background-color: $dark-turquoise;
       border-color: $dark-turquoise;
     }

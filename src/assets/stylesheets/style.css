@@ -6655,6 +6655,7 @@ body {
       body main:not(.home-page) {
         margin-top: 0px; } }
   body .gizra-logo {
+    text-transform: lowercase;
     font-family: Abril Fatface;
     color: #e27058; }
     body .gizra-logo:hover, body .gizra-logo:focus {
@@ -6672,7 +6673,8 @@ body {
     color: white;
     background-color: #28A5A8;
     border-color: #28A5A8; }
-    body .btn-primary:hover {
+    body .btn-primary:hover,
+    body .btn-primary:focus {
       background-color: #288A8D;
       border-color: #288A8D; }
   body hr {

@@ -20,6 +20,3 @@ destination: 'serve'
 
 # url for the form "action" on submit(#shoov-trial-form).
 trial_form_action: //formspree.io/info+shoov@gizra.com
-
-# Redirect url after form submittion(#shoov-trial-form).
-trial_form_redirect: shoov.io/?sent=true

@@ -6,7 +6,7 @@ title: Home
     <section class="teaser text-center">
         <h2>
             <div class="title-main">Shoov</div>
-            <div><span class="title-sub">website testing toolkit by</span> <a href="http://www.gizra.com" target="_blank" class="gizra-logo"> Gizra </a></div>
+            <div><span class="title-sub">website testing toolkit by</span> <a href="http://www.gizra.com" target="_blank" class="gizra-logo"> gizra </a></div>
         </h2>
         <div class="intro">
             <h4 class="">Shoov performs the same function as a team of human QA testers</h4>
@@ -18,24 +18,24 @@ title: Home
                 <i class="fa fa-graduation-cap"></i> Get started with Shoov by reading the Shoov tutorial
             </a>
             <p>Shoov works within your existing workflow, seamlessly integrating with GitHub and the testing libraries you use. It is completely <a href="http://github.com/gizra/shoov"><strong class="strong">Open Source</strong></a> - zero vendor lock in.</p>
-            <p class="contact-us-title">contact <a href="http://www.gizra.com" target="_blank" class="gizra-logo"> Gizra </a>to set up a Shoov trial free of charge</p>
+            <p class="contact-us-title">contact <a href="http://www.gizra.com" target="_blank" class="gizra-logo"> gizra </a>to set up a Shoov trial free of charge</p>
         </div>
     </section>
     <div class="more-shoov">
         <section class="container">
-            <form id="trial-form" class="contact-form" method="post" action="{{ site.trial_form_action }}">
+            <form id="trial-form" class="contact-form" method="post" action="{{site.trial_form_action}}">
                 <div class="row">
                     <div class="col-xs-12 form-group">
                         <label class="turquoise text-left" for="name">* Website url</label>
                         <div class="input-group">
-                            <input type="url" class="form-control" id="name" name="name" placeholder="Enter website url" minlength="2" required="required" aria-required="true">
+                            <input type="url" class="form-control" id="name" name="name" placeholder="Enter website url">
                             <span class="input-group-addon"><i class="fa fa-globe"></i></span>
                         </div>
                     </div>
                     <div class="col-xs-12 form-group">
-                        <label class="turquoise text-left" for="_replyto">* Email address</label>
+                        <label class="turquoise text-left" for="email">* Email address</label>
                         <div class="input-group">
-                            <input type="email" class="form-control" id="_replyto" name="_replyto" placeholder="Enter email address" required="required" aria-required="true">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Enter email address">
                             <span class="input-group-addon"><i class="fa fa-envelope-o"></i></span>
                         </div>
                     </div>
@@ -43,7 +43,6 @@ title: Home
                         <button type="submit" class="btn btn-block btn-primary">Get Shoov</button>
                     </div>
                 </div>
-                <input type="hidden" name="_next" value="{{ site.trial_form_redirect }}" />
             </form>
         </section>
     </div>
