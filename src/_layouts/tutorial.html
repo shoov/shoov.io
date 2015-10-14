@@ -5,19 +5,20 @@ layout: default
   <div class="page tutorial">
     <h1 class="title">{{ page.title }}</h1>
     <hr class="full"/>
-    <button class="btn btn-default pull-right" data-toggle="collapse" data-target="#lessons-navigation">Lessons <i class="fa fa-angle-down"></i></button>
-    <div id="lessons-navigation" class="collapse">
-      <ul class="menu">
+    <div class="row">
+      <div class="col-xs-12">
+        <button class="btn btn-default pull-right" data-toggle="collapse" data-target="#lessons-navigation">Lessons <i class="fa fa-angle-down"></i></button>
+      </div>
+      <ul id="lessons-navigation" class="collapse col-xs-12">
         {% assign tutorials = site.pages %}
           {% for node in tutorials %}
             {% if node.title != null %}
               {% if node.layout == 'tutorial' %}
-        <li class="{% if page.url == node.url %}active{% endif %}"><a href="{{ node.url }}">{{ node.title }}</a></li>
+                <li class="{% if page.url == node.url %}active{% endif %}"><a href="{{ node.url }}">{{ node.title }}</a></li>
             {% endif %}
           {% endif %}
         {% endfor %}
       </ul>
-    </div>
   </div>
     {{ content }}
   </div>
