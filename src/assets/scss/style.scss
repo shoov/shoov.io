@@ -5,6 +5,7 @@
 @import "_footer";
 @import "_homepage";
 @import "_glossary";
+@import "_tutorial";
 
 body {
   background: $light-gray;
@@ -59,12 +60,15 @@ body {
     width: 90%;
     display: block;
     border-bottom: 1px solid rgb(226, 226, 226);
+
+    &.full {
+      width: 100%;
+    }
   }
 
   .title {
     font-family: 'Droid Serif', serif;
-    margin-top: 25px;
-    margin-bottom: 25px;
     color: $gray-medium;
   }
 }
+

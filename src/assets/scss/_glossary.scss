@@ -2,10 +2,26 @@
 
   .glossary-items {
     padding: 0px;
-    list-style: mone;
+    list-style: none;
 
     .item {
+      margin: 30px auto 0px auto;
+      width: 98%;
+      padding: 20px;
+      border: 1px solid #E8E8E8;
+      color: $dark-blue;
+      background-clip: padding-box;
+      box-shadow: 0 4px 1px rgba(0, 0, 0, 0.05);
 
+      &:first-child {
+        margin-top: 40px;
+
+      }
+
+      h3 {
+        color: $medium-blue;
+        margin-top: 0px;
+      }
     }
   }
 }

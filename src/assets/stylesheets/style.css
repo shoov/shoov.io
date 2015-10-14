@@ -6556,7 +6556,26 @@ body .home-page #links {
 
 .container .glossary-items {
   padding: 0px;
-  list-style: mone; }
+  list-style: none; }
+  .container .glossary-items .item {
+    margin: 30px auto 0px auto;
+    width: 98%;
+    padding: 20px;
+    border: 1px solid #E8E8E8;
+    color: #253340;
+    background-clip: padding-box;
+    box-shadow: 0 4px 1px rgba(0, 0, 0, 0.05); }
+    .container .glossary-items .item:first-child {
+      margin-top: 40px; }
+    .container .glossary-items .item h3 {
+      color: #194D7D;
+      margin-top: 0px; }
+
+.page.tutorial img {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0px; }
 
 body {
   background: #f5f5f5;
@@ -6590,8 +6609,8 @@ body {
     width: 90%;
     display: block;
     border-bottom: 1px solid #e2e2e2; }
+    body hr.full {
+      width: 100%; }
   body .title {
     font-family: 'Droid Serif', serif;
-    margin-top: 25px;
-    margin-bottom: 25px;
     color: #565656; }
