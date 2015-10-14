@@ -8,7 +8,7 @@ $(document).ready(function() {
          }
          else {
              $('#header').removeClass('scrolled');
-             
+
          }
     });
 

@@ -6389,7 +6389,7 @@ button.close {
 #topcontrol {
   bottom: 11px !important; }
 
-.home-page p {
+body .home-page p {
   margin-top: 25px;
   margin-bottom: 0px;
   padding: 15px;
@@ -6398,54 +6398,54 @@ button.close {
   border-radius: 5px;
   background-clip: padding-box; }
 
-.home-page .teaser {
+body .home-page .teaser {
   padding-top: 120px;
   padding-bottom: 100px;
   margin-bottom: 0px;
   background: #253340; }
   @media (max-width: 992px) {
-    .home-page .teaser {
+    body .home-page .teaser {
       padding-top: 1px; } }
-  .home-page .teaser p {
+  body .home-page .teaser p {
     padding: 0px; }
-  .home-page .teaser .title-main,
-  .home-page .teaser .title-sub {
+  body .home-page .teaser .title-main,
+  body .home-page .teaser .title-sub {
     color: white;
     margin-top: 0;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); }
-  .home-page .teaser .title-main {
+  body .home-page .teaser .title-main {
     font-size: 96px;
     font-weight: 400;
     font-family: 'Audiowide', arial, sans-serif; }
-  .home-page .teaser .title-sub {
+  body .home-page .teaser .title-sub {
     font-size: 34px;
     margin-top: 15px;
     font-weight: 700; }
   @media (min-width: 480px) {
-    .home-page .teaser {
+    body .home-page .teaser {
       height: auto; } }
-  .home-page .teaser h2 .gizra-logo {
+  body .home-page .teaser h2 .gizra-logo {
     display: inline-block;
     font-size: 34px;
     letter-spacing: 0.015em; }
-  .home-page .teaser .intro {
+  body .home-page .teaser .intro {
     margin: 15px auto 0px auto;
     max-width: 900px;
     padding: 10px;
     color: #28A5A8; }
-    .home-page .teaser .intro h4 {
+    body .home-page .teaser .intro h4 {
       font-size: 23px;
       font-weight: bold;
       letter-spacing: 1px; }
-    .home-page .teaser .intro p {
+    body .home-page .teaser .intro p {
       margin: 0px; }
-  .home-page .teaser .container {
+  body .home-page .teaser .container {
     max-width: 800px; }
-    .home-page .teaser .container .strong {
+    body .home-page .teaser .container .strong {
       color: #999999; }
-    .home-page .teaser .container .light-box {
+    body .home-page .teaser .container .light-box {
       background-color: rgba(123, 135, 146, 0.12); }
-    .home-page .teaser .container .video {
+    body .home-page .teaser .container .video {
       max-width: 500px;
       margin: 25px auto 0px auto;
       padding: 15px;
@@ -6454,9 +6454,9 @@ button.close {
       border-radius: 4px;
       background-clip: padding-box;
       box-shadow: 4px 4px 30px 0px #252729; }
-      .home-page .teaser .container .video img {
+      body .home-page .teaser .container .video img {
         border: 1px solid #A2A2A2; }
-    .home-page .teaser .container .tutorial {
+    body .home-page .teaser .container .tutorial {
       font-size: 16px;
       font-weight: normal;
       padding: 10px;
@@ -6466,10 +6466,10 @@ button.close {
       color: rgba(255, 255, 255, 0.75);
       margin: 35px auto 0px auto;
       display: inline-block; }
-      .home-page .teaser .container .tutorial:hover, .home-page .teaser .container .tutorial:focus {
+      body .home-page .teaser .container .tutorial:hover, body .home-page .teaser .container .tutorial:focus {
         color: white;
         background: #253340; }
-    .home-page .teaser .container .contact-us-title {
+    body .home-page .teaser .container .contact-us-title {
       margin-top: 75px;
       font-size: 21px;
       margin-bottom: -10px;
@@ -6477,12 +6477,12 @@ button.close {
       padding: 10px;
       background-color: #e27058;
       color: white; }
-      .home-page .teaser .container .contact-us-title .gizra-logo {
+      body .home-page .teaser .container .contact-us-title .gizra-logo {
         color: white; }
 
-.home-page .more-shoov {
+body .home-page .more-shoov {
   position: relative; }
-  .home-page .more-shoov .container {
+  body .home-page .more-shoov .container {
     position: absolute;
     left: 0;
     right: 0;
@@ -6496,68 +6496,72 @@ button.close {
     z-index: 100;
     box-shadow: 2px 2px 20px 0px rgba(37, 39, 41, 0.22); }
     @media (max-width: 767px) {
-      .home-page .more-shoov .container {
+      body .home-page .more-shoov .container {
         border-radius: 0px; } }
     @media (max-width: 479px) {
-      .home-page .more-shoov .container {
+      body .home-page .more-shoov .container {
         margin-left: 15px;
         margin-right: 15px; } }
-    .home-page .more-shoov .container p {
+    body .home-page .more-shoov .container p {
       font-size: 18px;
       color: #194D7D; }
-    .home-page .more-shoov .container #trial-form {
+    body .home-page .more-shoov .container #trial-form {
       padding: 20px; }
-      .home-page .more-shoov .container #trial-form .form-group {
+      body .home-page .more-shoov .container #trial-form .form-group {
         padding: 0px; }
-        .home-page .more-shoov .container #trial-form .form-group:last-child {
+        body .home-page .more-shoov .container #trial-form .form-group:last-child {
           margin-bottom: 0px; }
 
-.home-page #clients {
+body .home-page #clients {
   background: #f5f5f5;
   padding-top: 180px;
   position: relative; }
-  .home-page #clients .alert-success {
+  body .home-page #clients .alert-success {
     display: none; }
-  .home-page #clients .container {
+  body .home-page #clients .container {
     max-width: 800px; }
-    .home-page #clients .container .logo {
+    body .home-page #clients .container .logo {
       float: left;
       height: 120px;
       line-height: 120px;
       text-align: center; }
-      .home-page #clients .container .logo img {
+      body .home-page #clients .container .logo img {
         vertical-align: middle;
         display: inline-block; }
       @media (min-width: 479px) {
-        .home-page #clients .container .logo {
+        body .home-page #clients .container .logo {
           width: 25%; } }
 
-.home-page #links {
+body .home-page #links {
   margin-top: 20px;
   margin-bottom: 35px; }
-  .home-page #links .container {
+  body .home-page #links .container {
     max-width: 800px; }
-    .home-page #links .container h2 {
+    body .home-page #links .container h2 {
       margin-bottom: 10px; }
       @media (max-width: 479px) {
-        .home-page #links .container h2 {
+        body .home-page #links .container h2 {
           text-align: left; } }
-    .home-page #links .container ul {
+    body .home-page #links .container ul {
       padding: 0px;
       list-style: none; }
-      .home-page #links .container ul li {
+      body .home-page #links .container ul li {
         padding: 8px; }
-        .home-page #links .container ul li a {
+        body .home-page #links .container ul li a {
           color: #565656;
           text-decoration: none;
           display: block; }
-          .home-page #links .container ul li a:hover {
+          body .home-page #links .container ul li a:hover {
             color: #999999; }
+
+.container .glossary-items {
+  padding: 0px;
+  list-style: mone; }
 
 body {
   background: #f5f5f5;
   font-family: 'Fira Sans', arial, sans-serif; }
-  body:not('.home-page') {
+  body main:not(.home-page) {
     margin-top: 95px; }
   body .gizra-logo {
     font-family: Abril Fatface;
