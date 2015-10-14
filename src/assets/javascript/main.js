@@ -21,10 +21,10 @@ $(document).ready(function() {
     if (success) {
        $('.alert-success').show();
 
-        // In case the browser supports then alter the url without refresh.
-        // Changing the url to homepage without any query string.
-        // This is done so the user will be able to refresh the page without the
-        // success message displaying without a redirect from the form submission.
+        // Alter the url without refresh. Changing the url to homepage without
+        // any query string(removing "?sent=true"). This is done so the user will
+        // be able to refresh the page without seeing the success message on
+        // every refresh.
         if (history.pushState) {
             var newUrl = window.location.protocol + "//" + window.location.host + window.location.pathname;
             window.history.pushState({path: newUrl},'', newUrl);
