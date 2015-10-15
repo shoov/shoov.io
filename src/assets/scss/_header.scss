@@ -1,0 +1,44 @@
+#header {
+  background: $dark-blue;
+  color: #fff;
+
+  .container {
+    @include phone-to-mobile-only {
+      width: 100%;
+      padding-bottom: 25px;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  }
+
+  .text {
+    font-family: 'Audiowide', arial, sans-serif;
+  }
+
+  .main-nav .nav .nav-item.nav-item-cta a.btn-cta-secondary {
+    font-weight: normal;
+  }
+
+  .dropdown-toggle.nav-item.active {
+    font-weight: bold;
+  }
+
+  .dropdown-menu > .active > a {
+    background-color: $turquoise;
+  }
+
+  &.scrolled {
+    background: white;
+  }
+
+  .navbar-collapse {
+
+    @include phone-to-mobile-only {
+      position: relative;
+      left: auto;
+      top: auto;
+      padding-bottom: 10px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+  }
+}

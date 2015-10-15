@@ -1,11 +1,84 @@
-@import "../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 @import "../stylesheets/theme-style.css";
-@import "syntax";
+@import "_syntax";
+@import "_mixins";
+@import "_header";
+@import "_footer";
+@import "_homepage";
+@import "_glossary";
+@import "_tutorial";
 
-main {
-  margin-top: 95px;
+body {
+  background: $light-gray;
+  font-family: 'Fira Sans', arial, sans-serif;
 
-  .bg-slider-wrapper {
-    background: #253340;
+  main {
+    &:not(.home-page) {
+      margin-top: 95px;
+
+      @include phone-to-medium-desktop-only {
+        margin-top: 0px;
+      }
+    }
+  }
+
+  .gizra-logo {
+    text-transform: lowercase;
+    font-family: Abril Fatface;
+    color: $gizra;
+
+    &:hover, &:focus {
+      text-decoration: none;
+      color: $gizra-dark;
+    }
+  }
+
+  .turquoise {
+    color: $turquoise;
+  }
+
+  .white {
+    color: white;
+  }
+
+  a {
+    color: $turquoise;
+
+    &:hover, &:focus {
+      color: $light-turquoise;
+    }
+  }
+
+  .btn-primary {
+    color: white;
+    background-color: $turquoise;
+    border-color: $turquoise;
+
+    &:hover,
+    &:focus {
+      background-color: $dark-turquoise;
+      border-color: $dark-turquoise;
+    }
+  }
+
+  hr {
+    background: rgb(245, 245, 245);
+    height: 1px;
+    width: 90%;
+    display: block;
+    border-bottom: 1px solid rgb(226, 226, 226);
+
+    &.full {
+      width: 100%;
+    }
+  }
+
+  .title {
+    font-family: 'Droid Serif', serif;
+    color: $gray-medium;
+
+    @include phone-to-medium-desktop-only {
+      text-align: center;
+    }
   }
 }
+

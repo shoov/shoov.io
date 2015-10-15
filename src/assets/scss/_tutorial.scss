@@ -1,0 +1,92 @@
+.page.tutorial {
+  padding-bottom: 80px;
+
+  button.menu {
+    background: #28A5A8;
+    color: white;
+
+    &:focus {
+      border: none;
+    }
+
+    @include phone-to-medium-desktop-only {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+
+  #lessons-menu {
+
+    .lessons {
+      margin-top: 25px;
+      margin-bottom: 25px;
+
+      @include phone-to-medium-desktop-only {
+        margin-top: 0px;
+      }
+
+      a {
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+        display: block;
+        color: white;
+        text-decoration: none;
+        border-left: 8px solid $turquoise;
+        padding: 12px;
+        background: $dark-blue;
+
+          &:hover {
+            color: $turquoise;
+          }
+
+          &:first-child {
+            margin-top: 0px;
+            border-top: none;
+          }
+
+          &.active {
+            color: white;
+            background: rgba(37, 51, 64, 0.85);
+          }
+
+      }
+    }
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0px;
+  }
+
+  pre {
+    color: #16222D;
+    border-color: rgba(37, 51, 64, 0.1);
+    background: #EDF5FD;
+  }
+
+  li {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 25px;
+    margin-bottom: 35px;
+    font-family: 'Droid Serif', serif;
+    color: $gray-medium;
+  }
+
+  h2 {
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #E4E4E4;
+  }
+}
+

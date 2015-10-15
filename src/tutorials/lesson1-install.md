@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: tutorial
 title: Lesson 1 - Installation & Setup
 ---
 
@@ -30,7 +30,7 @@ brew install graphicsmagick
 sudo apt-get install graphicsmagick
 ```
 
-# One time Setup
+## One time Setup
 
 1. Register to [BrowserStack](http://www.browserstack.com/) (You can also use Sauce Labs, but for this tutorial we have chosen BrowserStack as it provides a more a affordable solution. If you have Sauce labs account you can skip to section (4) and add your Sauce Labs credentials instead)
 1. Get your BrowserStack [credentials](https://www.browserstack.com/automate)

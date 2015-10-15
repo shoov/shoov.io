@@ -1,0 +1,134 @@
+// This container is a custom one, Bootstrap out of the box has 3 containers.
+$ContainerPhone: 460px;
+
+// Intermediate small screen / phone. (Custom breakpoint).
+$screen-is: 480px;
+
+// Minimum screen size for the custom grid.
+$screen-is-min: ($screen-is);
+
+// Maximum screen size for the custom grid.
+$screen-is-max: 767px;
+
+// Maximum screen size for Extra small screen / phone (We have to call it before bootstrap).
+$screen-xs-max: ($screen-is-min - 1);
+
+// bower:scss
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+
+// Including the custom grid css.
+@import "_grids.scss";
+
+$turquoise: #28A5A8;
+$light-turquoise: #2886a2;
+$dark-turquoise: #288A8D;
+$gizra: #e27058;
+$gizra-dark: #e25d48;
+$light-gray: #f5f5f5;
+$gray-medium: #565656;
+$gray: #999999;
+$light-blue: #5d80a1;
+$medium-blue: #194D7D;
+$dark-blue: #253340;
+
+/* Large Devices, Wide Screens */
+@mixin large-desktop-only {
+  @media (min-width: $screen-lg-min) {
+    @content;
+  }
+}
+
+/* Medium Devices, Desktops */
+@mixin medium-desktop-only {
+  @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+    @content;
+  }
+}
+
+/* Up to medium desktop */
+@mixin phone-to-medium-desktop-only {
+  @media (max-width: $screen-md-min) {
+    @content;
+  }
+}
+
+// Medium to large desktop.
+@mixin medium-to-large-desktop-only {
+  @media (min-width: $screen-md-min)  {
+    @content;
+  }
+}
+
+/* Small Devices, Tablets */
+@mixin tablet-only {
+  @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+    @content;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@mixin tablet-to-desktop-only {
+  @media (min-width: $screen-sm-min) {
+    @content;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@mixin mobile-only {
+  @media (min-width: $screen-is-min) and (max-width: $screen-is-max) {
+    @content;
+  }
+}
+
+// Exclude mobile width only.
+@mixin exclude-mobile-only {
+  @media (min-width: $screen-is-min)  {
+    @content;
+  }
+}
+
+/* Custom, iPhone Retina */
+@mixin phone-only {
+  @media (max-width: $screen-xs-max) {
+    @content;
+  }
+}
+
+// Not for phone width only.
+@mixin exclude-phone-only {
+  @media (min-width: $screen-xs-max)  {
+    @content;
+  }
+}
+
+// Not for phone to mobile width only.
+@mixin phone-to-mobile-only {
+  @media (max-width: $screen-is-max)  {
+    @content;
+  }
+}
+
+// All devices.
+@mixin from-mobile {
+  @media (min-width: $screen-is-min)  {
+    @content;
+  }
+}
+
+@mixin border-radius ( $value: 3px ) {
+  -webkit-border-radius: $value;
+  -moz-border-radius: $value;
+  border-radius: $value;
+  // keeps background from busting out of border
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+
+@mixin box-shadow( $horiz : .5em , $vert : .5em , $blur : 0px , $spread : 0px , $color : #000000 ){
+  -webkit-box-shadow: $horiz $vert $blur $spread $color;
+  -moz-box-shadow: $horiz $vert $blur $spread $color;
+  box-shadow: $horiz $vert $blur $spread $color;
+}

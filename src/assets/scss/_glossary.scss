@@ -1,0 +1,46 @@
+#glossary {
+
+  .glossary-items {
+    padding: 0px;
+    list-style: none;
+
+    .item {
+      margin: 50px auto 0px auto;
+      width: 98%;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.68);
+      border: 1px solid #E8E8E8;
+      color: $dark-blue;
+      @include box-shadow(0px , 4px , 1px ,0px , rgba(0, 0, 0, 0.05));
+
+      &:first-child {
+        margin-top: 40px;
+      }
+
+      h3 {
+        margin-top: 0px;
+        color: $turquoise;
+      }
+    }
+  }
+
+  .tutorial-link {
+    font-size: 16px;
+    font-weight: normal;
+    padding: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    background: $turquoise;
+    margin-bottom: 25px;
+    margin-top: 35px;
+    display: inline-block;
+
+    &:hover, &:focus {
+      color: white;
+      background: $dark-turquoise;
+    }
+  }
+}
+
+
