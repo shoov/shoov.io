@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<div class="container">
+  <div class="page tutorial">
+    <h1 class="title">{{ page.title }}</h1>
+    <hr class="full"/>
+    <div class="row">
+      <div class="col-xs-12">
+        <button class="btn btn-default pull-right menu" data-toggle="collapse" data-target="#lessons-menu"><i class="fa fa-book"></i> Lessons menu</i></button>
+      </div>
+      <div id="lessons-menu" class="collapse col-xs-12">
+        <div class="lessons">
+          {% assign tutorials = site.pages %}
+            {% for node in tutorials %}
+              {% if node.title != null %}
+                {% if node.layout == 'tutorial' %}
+                  <a href="{{ node.url }}" class="{% if page.url == node.url %}active{% endif %}">{{ node.title }} </a>
+                {% endif %}
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+  </div>
+    {{ content }}
+  </div>
+</div>
+
+

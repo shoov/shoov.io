@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: tutorial
 title: Lesson 2 - Setup a GitHub repository
 ---
 

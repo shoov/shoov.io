@@ -1,5 +1,10 @@
 {
   "name": "shoov-io",
   "version": "0.0.0",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "jquery": "jQuery#~2.1.4",
+    "jquery-placeholder": "~2.1.3",
+    "bootstrap-sass": "~3.3.5"
+  }
 }
