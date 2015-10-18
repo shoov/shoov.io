@@ -13,7 +13,7 @@ body {
     }
 
     .teaser {
-      padding-top: 120px;
+      padding-top: 30px;
       padding-bottom: 100px;
       margin-bottom: 0px;
       background: $dark-blue;
@@ -57,7 +57,7 @@ body {
 
       .intro {
         margin: 15px auto 0px auto;
-        max-width: 900px;
+        max-width: 660px;
         padding: 10px;
         color: $turquoise;
 
@@ -95,6 +95,12 @@ body {
           img {
             border: 1px solid #A2A2A2;
           }
+        }
+
+        .about-shoov {
+          max-width: 660px;
+          margin-left: auto;
+          margin-right: auto;
         }
 
         .text-line-throw {
