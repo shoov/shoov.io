@@ -6447,7 +6447,7 @@ body .home-page .teaser {
       background-color: rgba(123, 135, 146, 0.12); }
     body .home-page .teaser .container .video {
       max-width: 500px;
-      margin: 25px auto 0px auto;
+      margin: 15px auto 0px auto;
       padding: 15px;
       background: rgba(123, 135, 146, 0.12);
       border: 1px solid rgba(255, 255, 255, 0.14);
@@ -6662,11 +6662,6 @@ body .home-page #links {
 body {
   background: #f5f5f5;
   font-family: 'Fira Sans', arial, sans-serif; }
-  body main:not(.home-page) {
-    margin-top: 95px; }
-    @media (max-width: 992px) {
-      body main:not(.home-page) {
-        margin-top: 0px; } }
   body .gizra-logo {
     text-transform: lowercase;
     font-family: Abril Fatface;
