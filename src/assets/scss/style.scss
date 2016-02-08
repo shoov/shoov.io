@@ -21,6 +21,15 @@ body {
     }
   }
 
+  .turquoise {
+    color: $turquoise;
+  }
+
+  .turquoise-bg {
+    background: $turquoise;
+  }
+
+
   .gizra-logo {
     text-transform: lowercase;
     font-family: Abril Fatface;

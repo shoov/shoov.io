@@ -6372,19 +6372,8 @@ button.close {
   padding-top: 20px;
   padding-bottom: 20px;
   background: #253340; }
-  #footer .company-details {
-    text-align: center; }
-    #footer .company-details span {
-      margin-right: 10px; }
-      @media (max-width: 767px) {
-        #footer .company-details span {
-          display: block;
-          margin-top: 10px; } }
-      #footer .company-details span a {
-        color: #999999; }
-      #footer .company-details span i {
-        color: #28A5A8;
-        margin-right: 5px; }
+  #footer a {
+    color: #999999; }
 
 #topcontrol {
   bottom: 11px !important; }
@@ -6655,6 +6644,10 @@ body {
     @media (max-width: 992px) {
       body main:not(.home-page) {
         margin-top: 0px; } }
+  body .turquoise {
+    color: #28A5A8; }
+  body .turquoise-bg {
+    background: #28A5A8; }
   body .gizra-logo {
     text-transform: lowercase;
     font-family: Abril Fatface;
