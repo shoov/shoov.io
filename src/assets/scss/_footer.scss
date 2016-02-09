@@ -7,6 +7,31 @@
   a {
     color: $gray;
   }
+
+  .company-detail {
+    padding: 0;
+    list-style: none;
+    display: block;
+    max-width: 764px;
+    margin: 0 auto;
+
+    li {
+      float: left;
+      border-right: 1px solid rgba(255, 255, 255, 0.27);
+      margin-right: 15px;
+      padding-right: 15px;
+
+      div:first-child {
+        margin-bottom: 3px;
+      }
+
+      &:last-child {
+        border-right: 0;
+        margin-right: 0;
+        padding-right: 0;
+      }
+    }
+  }
 }
 
 #topcontrol {
