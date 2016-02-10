@@ -4,36 +4,66 @@
   padding-bottom: 20px;
   background: $dark-blue;
 
-  a {
-    color: $gray;
+  .company-detail .country:first-child {
+    margin-bottom: 10px;
   }
 
-  .company-detail {
-    padding: 0;
-    list-style: none;
-    display: block;
-    max-width: 764px;
-    margin: 0 auto;
-
-    li {
-      float: left;
-      border-right: 1px solid rgba(255, 255, 255, 0.27);
-      margin-right: 15px;
-      padding-right: 15px;
-
-      div:first-child {
-        margin-bottom: 3px;
-      }
-
-      &:last-child {
-        border-right: 0;
-        margin-right: 0;
-        padding-right: 0;
-      }
-    }
+  a {
+    color: $gray;
   }
 }
 
 #topcontrol {
   bottom: 11px !important;
+}
+
+
+// Media queries.
+@include tablet-to-desktop-only {
+  .company-detail {
+    max-width: 800px;
+
+    .country span {
+      float: none;
+      display: inline-block;
+    }
+
+  }
+}
+
+// Media queries.
+@include medium-to-large-desktop-only {
+  .company-detail {
+    max-width: 800px;
+
+    .country {
+      margin-bottom: 10px;
+
+      span {
+        float: left;
+        border-left: 1px solid rgba(255, 255, 255, 0.17);
+        padding-left: 8px;
+        margin-left: 10px;
+
+        &:first-child {
+          border-left: 0;
+          padding-left: 0;
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}
+
+@include phone-to-medium-desktop-only {
+  .company-detail {
+    text-align: center;
+
+    .country {
+      span {
+        display: block;
+        margin-bottom: 5px;
+      }
+    }
+  }
 }
