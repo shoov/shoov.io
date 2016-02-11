@@ -6372,42 +6372,22 @@ button.close {
   padding-top: 20px;
   padding-bottom: 20px;
   background: #253340; }
-  #footer .company-detail .country:first-child {
-    margin-bottom: 10px; }
-  #footer a {
-    color: #999999; }
+  #footer .company-details {
+    text-align: center; }
+    #footer .company-details span {
+      margin-right: 10px; }
+      @media (max-width: 767px) {
+        #footer .company-details span {
+          display: block;
+          margin-top: 10px; } }
+      #footer .company-details span a {
+        color: #999999; }
+      #footer .company-details span i {
+        color: #28A5A8;
+        margin-right: 5px; }
 
 #topcontrol {
   bottom: 11px !important; }
-
-@media (min-width: 768px) {
-  .company-detail {
-    max-width: 800px; }
-    .company-detail .country span {
-      float: none;
-      display: inline-block; } }
-
-@media (min-width: 992px) {
-  .company-detail {
-    max-width: 800px; }
-    .company-detail .country {
-      margin-bottom: 10px; }
-      .company-detail .country span {
-        float: left;
-        border-left: 1px solid rgba(255, 255, 255, 0.17);
-        padding-left: 8px;
-        margin-left: 10px; }
-        .company-detail .country span:first-child {
-          border-left: 0;
-          padding-left: 0;
-          margin-left: 0; } }
-
-@media (max-width: 992px) {
-  .company-detail {
-    text-align: center; }
-    .company-detail .country span {
-      display: block;
-      margin-bottom: 5px; } }
 
 body .home-page p {
   margin-top: 25px;
@@ -6419,7 +6399,7 @@ body .home-page p {
   background-clip: padding-box; }
 
 body .home-page .teaser {
-  padding-top: 120px;
+  padding-top: 30px;
   padding-bottom: 100px;
   margin-bottom: 0px;
   background: #253340; }
@@ -6450,7 +6430,7 @@ body .home-page .teaser {
     letter-spacing: 0.035em; }
   body .home-page .teaser .intro {
     margin: 15px auto 0px auto;
-    max-width: 900px;
+    max-width: 660px;
     padding: 10px;
     color: #28A5A8; }
     body .home-page .teaser .intro h4 {
@@ -6467,7 +6447,7 @@ body .home-page .teaser {
       background-color: rgba(123, 135, 146, 0.12); }
     body .home-page .teaser .container .video {
       max-width: 500px;
-      margin: 25px auto 0px auto;
+      margin: 15px auto 0px auto;
       padding: 15px;
       background: rgba(123, 135, 146, 0.12);
       border: 1px solid rgba(255, 255, 255, 0.14);
@@ -6476,6 +6456,22 @@ body .home-page .teaser {
       box-shadow: 4px 4px 30px 0px #252729; }
       body .home-page .teaser .container .video img {
         border: 1px solid #A2A2A2; }
+    body .home-page .teaser .container .about-shoov {
+      max-width: 660px;
+      margin-left: auto;
+      margin-right: auto; }
+    body .home-page .teaser .container .text-line-throw {
+      margin-top: 42px; }
+      body .home-page .teaser .container .text-line-throw h3 {
+        margin: 0 auto;
+        color: #999999;
+        width: 80%;
+        text-align: center;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.36);
+        line-height: 0.1em; }
+        body .home-page .teaser .container .text-line-throw h3 span {
+          background: #253340;
+          padding: 0 10px; }
     body .home-page .teaser .container .tutorial-link {
       font-size: 16px;
       font-weight: normal;
@@ -6484,13 +6480,13 @@ body .home-page .teaser {
       border-radius: 8px;
       text-decoration: none;
       color: rgba(255, 255, 255, 0.75);
-      margin: 35px auto 0px auto;
+      margin: 65px auto 0px auto;
       display: inline-block; }
       body .home-page .teaser .container .tutorial-link:hover, body .home-page .teaser .container .tutorial-link:focus {
         color: white;
         background: #253340; }
     body .home-page .teaser .container .contact-us-title {
-      margin-top: 75px;
+      margin-top: 35px;
       font-size: 21px;
       margin-bottom: -10px;
       display: inline-block;
@@ -6670,15 +6666,6 @@ body .home-page #links {
 body {
   background: #f5f5f5;
   font-family: 'Fira Sans', arial, sans-serif; }
-  body main:not(.home-page) {
-    margin-top: 95px; }
-    @media (max-width: 992px) {
-      body main:not(.home-page) {
-        margin-top: 0px; } }
-  body .turquoise {
-    color: #28A5A8; }
-  body .turquoise-bg {
-    background: #28A5A8; }
   body .gizra-logo {
     text-transform: lowercase;
     font-family: Abril Fatface;
