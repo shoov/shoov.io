@@ -6372,22 +6372,42 @@ button.close {
   padding-top: 20px;
   padding-bottom: 20px;
   background: #253340; }
-  #footer .company-details {
-    text-align: center; }
-    #footer .company-details span {
-      margin-right: 10px; }
-      @media (max-width: 767px) {
-        #footer .company-details span {
-          display: block;
-          margin-top: 10px; } }
-      #footer .company-details span a {
-        color: #999999; }
-      #footer .company-details span i {
-        color: #28A5A8;
-        margin-right: 5px; }
+  #footer .company-detail .country:first-child {
+    margin-bottom: 10px; }
+  #footer a {
+    color: #999999; }
 
 #topcontrol {
   bottom: 11px !important; }
+
+@media (min-width: 768px) {
+  .company-detail {
+    max-width: 800px; }
+    .company-detail .country span {
+      float: none;
+      display: inline-block; } }
+
+@media (min-width: 992px) {
+  .company-detail {
+    max-width: 800px; }
+    .company-detail .country {
+      margin-bottom: 10px; }
+      .company-detail .country span {
+        float: left;
+        border-left: 1px solid rgba(255, 255, 255, 0.17);
+        padding-left: 8px;
+        margin-left: 10px; }
+        .company-detail .country span:first-child {
+          border-left: 0;
+          padding-left: 0;
+          margin-left: 0; } }
+
+@media (max-width: 992px) {
+  .company-detail {
+    text-align: center; }
+    .company-detail .country span {
+      display: block;
+      margin-bottom: 5px; } }
 
 body .home-page p {
   margin-top: 25px;
@@ -6675,6 +6695,8 @@ body {
       color: #e25d48; }
   body .turquoise {
     color: #28A5A8; }
+  body .turquoise-bg {
+    background: #28A5A8; }
   body .white {
     color: white; }
   body a {
