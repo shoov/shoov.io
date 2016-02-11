@@ -11,6 +11,24 @@ body {
   background: $light-gray;
   font-family: 'Fira Sans', arial, sans-serif;
 
+  main {
+    &:not(.home-page) {
+      margin-top: 95px;
+
+      @include phone-to-medium-desktop-only {
+        margin-top: 0px;
+      }
+    }
+  }
+
+  .turquoise {
+    color: $turquoise;
+  }
+
+  .turquoise-bg {
+    background: $turquoise;
+  }
+
   .gizra-logo {
     text-transform: lowercase;
     font-family: Abril Fatface;
