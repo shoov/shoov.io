@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>shoov.io/</loc>
-    <lastmod>2016-09-16T23:39:02+03:00</lastmod>
+    <lastmod>2016-11-18T13:57:02-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -11,7 +11,7 @@
   <url>
     <loc>shoov.io/404/</loc>
     
-      <lastmod>2016-09-16T23:39:02+03:00</lastmod>
+      <lastmod>2016-11-18T13:57:02-05:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -24,7 +24,7 @@
   <url>
     <loc>shoov.io/atom.xml</loc>
     
-      <lastmod>2016-09-16T23:39:02+03:00</lastmod>
+      <lastmod>2016-11-18T13:57:02-05:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -37,7 +37,7 @@
   <url>
     <loc>shoov.io/glossary/</loc>
     
-      <lastmod>2016-09-16T23:39:02+03:00</lastmod>
+      <lastmod>2016-11-18T13:57:02-05:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -50,72 +50,7 @@
   <url>
     <loc>shoov.io/</loc>
     
-      <lastmod>2016-09-16T23:39:02+03:00</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
-  </url>
-  
-  <url>
-    <loc>shoov.io/tutorials/lesson1-install/</loc>
-    
-      <lastmod>2016-09-16T23:39:02+03:00</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
-  </url>
-  
-  <url>
-    <loc>shoov.io/tutorials/lesson2-scaffold/</loc>
-    
-      <lastmod>2016-09-16T23:39:02+03:00</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
-  </url>
-  
-  <url>
-    <loc>shoov.io/tutorials/lesson3-static-page/</loc>
-    
-      <lastmod>2016-09-16T23:39:02+03:00</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
-  </url>
-  
-  <url>
-    <loc>shoov.io/tutorials/lesson4-dynamic-intro/</loc>
-    
-      <lastmod>2016-09-16T23:39:02+03:00</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
-  </url>
-  
-  <url>
-    <loc>shoov.io/tutorials/lesson5-dynamic-complex/</loc>
-    
-      <lastmod>2016-09-16T23:39:02+03:00</lastmod>
+      <lastmod>2016-11-18T13:57:02-05:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -128,7 +63,72 @@
   <url>
     <loc>shoov.io/sitemap.xml</loc>
     
-      <lastmod>2016-09-16T23:39:02+03:00</lastmod>
+      <lastmod>2016-11-18T13:57:02-05:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>shoov.io/tutorials/lesson1-install/</loc>
+    
+      <lastmod>2016-11-18T13:57:02-05:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>shoov.io/tutorials/lesson2-scaffold/</loc>
+    
+      <lastmod>2016-11-18T13:57:02-05:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>shoov.io/tutorials/lesson3-static-page/</loc>
+    
+      <lastmod>2016-11-18T13:57:02-05:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>shoov.io/tutorials/lesson4-dynamic-intro/</loc>
+    
+      <lastmod>2016-11-18T13:57:02-05:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>shoov.io/tutorials/lesson5-dynamic-complex/</loc>
+    
+      <lastmod>2016-11-18T13:57:02-05:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
